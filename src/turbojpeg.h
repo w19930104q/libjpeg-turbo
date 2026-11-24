@@ -714,6 +714,11 @@ enum TJPARAM {
    * - `0` *[default]* Use the most accurate DCT/IDCT algorithm available.
    * - `1` Use the fastest DCT/IDCT algorithm available.
    *
+   * Lossless JPEG compression does not use a DCT algorithm, so
+   * #tj3Compress8(), #tj3Compress12(), and #tj3Compress16() reject this
+   * parameter, prior to writing any data, if it is set to `1` in conjunction
+   * with #TJPARAM_LOSSLESS.
+   *
    * This parameter is provided mainly for backward compatibility with libjpeg,
    * which historically implemented several different DCT/IDCT algorithms
    * because of performance limitations with 1990s CPUs.  In the libjpeg-turbo
@@ -824,7 +829,9 @@ enum TJPARAM {
    * image)
    * - Chrominance subsampling (lossless JPEG images always use #TJSAMP_444)
    * - JPEG quality selection
-   * - DCT/IDCT algorithm selection
+   * - DCT/IDCT algorithm selection (#tj3Compress8(), #tj3Compress12(), and
+   * #tj3Compress16() fail if #TJPARAM_FASTDCT is set to `1` in conjunction
+   * with this parameter)
    * - Progressive JPEG
    * - Arithmetic entropy coding
    * - Compression from/decompression to planar YUV images (this parameter is

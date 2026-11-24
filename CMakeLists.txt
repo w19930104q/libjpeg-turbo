@@ -834,6 +834,9 @@ if(WITH_TURBOJPEG)
         src/md5/md5hl.c)
       target_link_libraries(tjunittest turbojpeg)
 
+      add_executable(jtctest src/jtctest.c)
+      target_link_libraries(jtctest turbojpeg)
+
       add_executable(tjcomp src/tjcomp.c)
       target_link_libraries(tjcomp turbojpeg)
 
@@ -874,6 +877,9 @@ if(WITH_TURBOJPEG)
       add_executable(tjunittest-static src/tjunittest.c src/tjutil.c
         src/md5/md5.c src/md5/md5hl.c)
       target_link_libraries(tjunittest-static turbojpeg-static)
+
+      add_executable(jtctest-static src/jtctest.c)
+      target_link_libraries(jtctest-static turbojpeg-static)
     endif()
 
     if(WITH_TOOLS)
@@ -1200,6 +1206,8 @@ foreach(libtype ${TEST_LIBTYPES})
     set(suffix -static)
   endif()
   if(WITH_TURBOJPEG)
+    add_test(NAME jtc-${libtype}
+      COMMAND jtctest${suffix})
     add_test(NAME tjunittest-${libtype}
       COMMAND tjunittest${suffix})
     add_test(NAME tjunittest-${libtype}-alloc

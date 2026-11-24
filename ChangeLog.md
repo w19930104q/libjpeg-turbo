@@ -50,6 +50,15 @@ example code, so they did not pose a security risk.
 6. libjpeg-turbo's in-tree version of zlib has been upgraded to v1.4, which
 fixes multiple bugs and security issues.
 
+7. `tj3Compress8()`, `tj3Compress12()`, and `tj3Compress16()` now throw an
+error, prior to writing any data, if `TJPARAM_FASTDCT` is set to `1` in
+conjunction with `TJPARAM_LOSSLESS`.  Lossless JPEG compression does not use
+a DCT algorithm, so the DCT algorithm parameter was previously ignored in
+lossless mode.  Because the parameter was silently ignored, an application
+that interleaves lossy and lossless JPEG compression using the same
+TurboJPEG instance and the same set of parameters could not detect the
+incompatible option combination until much later in its workflow.
+
 
 3.2.1
 =====

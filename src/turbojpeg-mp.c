@@ -96,6 +96,8 @@ DLLEXPORT int GET_NAME(tj3Compress, BITS_IN_JSAMPLE)
     THROW("TJPARAM_QUALITY must be specified");
   if (!this->lossless && this->subsamp == TJSAMP_UNKNOWN)
     THROW("TJPARAM_SUBSAMP must be specified");
+  if (this->lossless && this->fastDCT)
+    THROW("TJPARAM_FASTDCT cannot be used with lossless JPEG compression");
 
   if (pitch == 0) pitch = width * tjPixelSize[pixelFormat];
   else if (pitch < width * tjPixelSize[pixelFormat])
