@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/liiing/feedback/uid37606/build-local/cmake_install.cmake",
+		"/home/liiing/feedback/uid37606/build-local/src/spng/cmake_install.cmake",
+		"/home/liiing/feedback/uid37606/build-local/src/md5/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

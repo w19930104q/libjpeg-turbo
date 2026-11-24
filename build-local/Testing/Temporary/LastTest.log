@@ -1,0 +1,1509 @@
+Start testing: Nov 24 17:40 CST
+----------------------------------------------------------
+1/332 Testing: tjunittest-static
+1/332 Test: tjunittest-static
+Command: "/home/liiing/feedback/uid37606/build-local/tjunittest-static"
+Directory: /home/liiing/feedback/uid37606/build-local
+"tjunittest-static" start time: Nov 24 17:40 CST
+Output:
+----------------------------------------------------------
+Testing 8-bit precision
+RGB Top-Down  -> 4:4:4 Q100 ... Done.
+  Result in test_enc8_RGB_TD_444_Q100.jpg
+JPEG -> RGB Top-Down  2/1 ... Passed.
+JPEG -> RGB Top-Down  15/8 ... Passed.
+JPEG -> RGB Top-Down  7/4 ... Passed.
+JPEG -> RGB Top-Down  13/8 ... Passed.
+JPEG -> RGB Top-Down  3/2 ... Passed.
+JPEG -> RGB Top-Down  11/8 ... Passed.
+JPEG -> RGB Top-Down  5/4 ... Passed.
+JPEG -> RGB Top-Down  9/8 ... Passed.
+JPEG -> RGB Top-Down  ... Passed.
+JPEG -> RGB Top-Down  7/8 ... Passed.
+JPEG -> RGB Top-Down  3/4 ... Passed.
+JPEG -> RGB Top-Down  5/8 ... Passed.
+JPEG -> RGB Top-Down  1/2 ... Passed.
+JPEG -> RGB Top-Down  3/8 ... Passed.
+JPEG -> RGB Top-Down  1/4 ... Passed.
+JPEG -> RGB Top-Down  1/8 ... Passed.
+
+RGB Bottom-Up -> 4:4:4 Q100 ... Done.
+  Result in test_enc8_RGB_BU_444_Q100.jpg
+JPEG -> RGB Bottom-Up 2/1 ... Passed.
+JPEG -> RGB Bottom-Up 15/8 ... Passed.
+JPEG -> RGB Bottom-Up 7/4 ... Passed.
+JPEG -> RGB Bottom-Up 13/8 ... Passed.
+JPEG -> RGB Bottom-Up 3/2 ... Passed.
+JPEG -> RGB Bottom-Up 11/8 ... Passed.
+JPEG -> RGB Bottom-Up 5/4 ... Passed.
+JPEG -> RGB Bottom-Up 9/8 ... Passed.
+JPEG -> RGB Bottom-Up ... Passed.
+JPEG -> RGB Bottom-Up 7/8 ... Passed.
+JPEG -> RGB Bottom-Up 3/4 ... Passed.
+JPEG -> RGB Bottom-Up 5/8 ... Passed.
+JPEG -> RGB Bottom-Up 1/2 ... Passed.
+JPEG -> RGB Bottom-Up 3/8 ... Passed.
+JPEG -> RGB Bottom-Up 1/4 ... Passed.
+JPEG -> RGB Bottom-Up 1/8 ... Passed.
+
+BGR Top-Down  -> 4:4:4 Q100 ... Done.
+  Result in test_enc8_BGR_TD_444_Q100.jpg
+JPEG -> BGR Top-Down  2/1 ... Passed.
+JPEG -> BGR Top-Down  15/8 ... Passed.
+JPEG -> BGR Top-Down  7/4 ... Passed.
+JPEG -> BGR Top-Down  13/8 ... Passed.
+JPEG -> BGR Top-Down  3/2 ... Passed.
+JPEG -> BGR Top-Down  11/8 ... Passed.
+JPEG -> BGR Top-Down  5/4 ... Passed.
+JPEG -> BGR Top-Down  9/8 ... Passed.
+JPEG -> BGR Top-Down  ... Passed.
+JPEG -> BGR Top-Down  7/8 ... Passed.
+JPEG -> BGR Top-Down  3/4 ... Passed.
+JPEG -> BGR Top-Down  5/8 ... Passed.
+JPEG -> BGR Top-Down  1/2 ... Passed.
+JPEG -> BGR Top-Down  3/8 ... Passed.
+JPEG -> BGR Top-Down  1/4 ... Passed.
+JPEG -> BGR Top-Down  1/8 ... Passed.
+
+BGR Bottom-Up -> 4:4:4 Q100 ... Done.
+  Result in test_enc8_BGR_BU_444_Q100.jpg
+JPEG -> BGR Bottom-Up 2/1 ... Passed.
+JPEG -> BGR Bottom-Up 15/8 ... Passed.
+JPEG -> BGR Bottom-Up 7/4 ... Passed.
+JPEG -> BGR Bottom-Up 13/8 ... Passed.
+JPEG -> BGR Bottom-Up 3/2 ... Passed.
+JPEG -> BGR Bottom-Up 11/8 ... Passed.
+JPEG -> BGR Bottom-Up 5/4 ... Passed.
+JPEG -> BGR Bottom-Up 9/8 ... Passed.
+JPEG -> BGR Bottom-Up ... Passed.
+JPEG -> BGR Bottom-Up 7/8 ... Passed.
+JPEG -> BGR Bottom-Up 3/4 ... Passed.
+JPEG -> BGR Bottom-Up 5/8 ... Passed.
+JPEG -> BGR Bottom-Up 1/2 ... Passed.
+JPEG -> BGR Bottom-Up 3/8 ... Passed.
+JPEG -> BGR Bottom-Up 1/4 ... Passed.
+JPEG -> BGR Bottom-Up 1/8 ... Passed.
+
+--------------------
+
+RGBX Top-Down  -> 4:4:4 Q100 ... Done.
+  Result in test_enc8_RGBX_TD_444_Q100.jpg
+JPEG -> RGBX Top-Down  2/1 ... Passed.
+JPEG -> RGBX Top-Down  15/8 ... Passed.
+JPEG -> RGBX Top-Down  7/4 ... Passed.
+JPEG -> RGBX Top-Down  13/8 ... Passed.
+JPEG -> RGBX Top-Down  3/2 ... Passed.
+JPEG -> RGBX Top-Down  11/8 ... Passed.
+JPEG -> RGBX Top-Down  5/4 ... Passed.
+JPEG -> RGBX Top-Down  9/8 ... Passed.
+JPEG -> RGBX Top-Down  ... Passed.
+JPEG -> RGBX Top-Down  7/8 ... Passed.
+JPEG -> RGBX Top-Down  3/4 ... Passed.
+JPEG -> RGBX Top-Down  5/8 ... Passed.
+JPEG -> RGBX Top-Down  1/2 ... Passed.
+JPEG -> RGBX Top-Down  3/8 ... Passed.
+JPEG -> RGBX Top-Down  1/4 ... Passed.
+JPEG -> RGBX Top-Down  1/8 ... Passed.
+
+JPEG -> RGBA Top-Down  2/1 ... Passed.
+JPEG -> RGBA Top-Down  15/8 ... Passed.
+JPEG -> RGBA Top-Down  7/4 ... Passed.
+JPEG -> RGBA Top-Down  13/8 ... Passed.
+JPEG -> RGBA Top-Down  3/2 ... Passed.
+JPEG -> RGBA Top-Down  11/8 ... Passed.
+JPEG -> RGBA Top-Down  5/4 ... Passed.
+JPEG -> RGBA Top-Down  9/8 ... Passed.
+JPEG -> RGBA Top-Down  ... Passed.
+JPEG -> RGBA Top-Down  7/8 ... Passed.
+JPEG -> RGBA Top-Down  3/4 ... Passed.
+JPEG -> RGBA Top-Down  5/8 ... Passed.
+JPEG -> RGBA Top-Down  1/2 ... Passed.
+JPEG -> RGBA Top-Down  3/8 ... Passed.
+JPEG -> RGBA Top-Down  1/4 ... Passed.
+JPEG -> RGBA Top-Down  1/8 ... Passed.
+
+RGBX Bottom-Up -> 4:4:4 Q100 ... Done.
+  Result in test_enc8_RGBX_BU_444_Q100.jpg
+JPEG -> RGBX Bottom-Up 2/1 ... Passed.
+JPEG -> RGBX Bottom-Up 15/8 ... Passed.
+JPEG -> RGBX Bottom-Up 7/4 ... Passed.
+JPEG -> RGBX Bottom-Up 13/8 ... Passed.
+JPEG -> RGBX Bottom-Up 3/2 ... Passed.
+JPEG -> RGBX Bottom-Up 11/8 ... Passed.
+JPEG -> RGBX Bottom-Up 5/4 ... Passed.
+JPEG -> RGBX Bottom-Up 9/8 ... Passed.
+JPEG -> RGBX Bottom-Up ... Passed.
+JPEG -> RGBX Bottom-Up 7/8 ... Passed.
+JPEG -> RGBX Bottom-Up 3/4 ... Passed.
+JPEG -> RGBX Bottom-Up 5/8 ... Passed.
+JPEG -> RGBX Bottom-Up 1/2 ... Passed.
+JPEG -> RGBX Bottom-Up 3/8 ... Passed.
+JPEG -> RGBX Bottom-Up 1/4 ... Passed.
+JPEG -> RGBX Bottom-Up 1/8 ... Passed.
+
+JPEG -> RGBA Bottom-Up 2/1 ... Passed.
+JPEG -> RGBA Bottom-Up 15/8 ... Passed.
+JPEG -> RGBA Bottom-Up 7/4 ... Passed.
+JPEG -> RGBA Bottom-Up 13/8 ... Passed.
+JPEG -> RGBA Bottom-Up 3/2 ... Passed.
+JPEG -> RGBA Bottom-Up 11/8 ... Passed.
+JPEG -> RGBA Bottom-Up 5/4 ... Passed.
+JPEG -> RGBA Bottom-Up 9/8 ... Passed.
+JPEG -> RGBA Bottom-Up ... Passed.
+JPEG -> RGBA Bottom-Up 7/8 ... Passed.
+JPEG -> RGBA Bottom-Up 3/4 ... Passed.
+JPEG -> RGBA Bottom-Up 5/8 ... Passed.
+JPEG -> RGBA Bottom-Up 1/2 ... Passed.
+JPEG -> RGBA Bottom-Up 3/8 ... Passed.
+JPEG -> RGBA Bottom-Up 1/4 ... Passed.
+JPEG -> RGBA Bottom-Up 1/8 ... Passed.
+
+BGRX Top-Down  -> 4:4:4 Q100 ... Done.
+  Result in test_enc8_BGRX_TD_444_Q100.jpg
+JPEG -> BGRX Top-Down  2/1 ... Passed.
+JPEG -> BGRX Top-Down  15/8 ... Passed.
+JPEG -> BGRX Top-Down  7/4 ... Passed.
+JPEG -> BGRX Top-Down  13/8 ... Passed.
+JPEG -> BGRX Top-Down  3/2 ... Passed.
+JPEG -> BGRX Top-Down  11/8 ... Passed.
+JPEG -> BGRX Top-Down  5/4 ... Passed.
+JPEG -> BGRX Top-Down  9/8 ... Passed.
+JPEG -> BGRX Top-Down  ... Passed.
+JPEG -> BGRX Top-Down  7/8 ... Passed.
+JPEG -> BGRX Top-Down  3/4 ... Passed.
+JPEG -> BGRX Top-Down  5/8 ... Passed.
+JPEG -> BGRX Top-Down  1/2 ... Passed.
+JPEG -> BGRX Top-Down  3/8 ... Passed.
+JPEG -> BGRX Top-Down  1/4 ... Passed.
+JPEG -> BGRX Top-Down  1/8 ... Passed.
+
+JPEG -> BGRA Top-Down  2/1 ... Passed.
+JPEG -> BGRA Top-Down  15/8 ... Passed.
+JPEG -> BGRA Top-Down  7/4 ... Passed.
+JPEG -> BGRA Top-Down  13/8 ... Passed.
+JPEG -> BGRA Top-Down  3/2 ... Passed.
+JPEG -> BGRA Top-Down  11/8 ... Passed.
+JPEG -> BGRA Top-Down  5/4 ... Passed.
+JPEG -> BGRA Top-Down  9/8 ... Passed.
+JPEG -> BGRA Top-Down  ... Passed.
+JPEG -> BGRA Top-Down  7/8 ... Passed.
+JPEG -> BGRA Top-Down  3/4 ... Passed.
+JPEG -> BGRA Top-Down  5/8 ... Passed.
+JPEG -> BGRA Top-Down  1/2 ... Passed.
+JPEG -> BGRA Top-Down  3/8 ... Passed.
+JPEG -> BGRA Top-Down  1/4 ... Passed.
+JPEG -> BGRA Top-Down  1/8 ... Passed.
+
+BGRX Bottom-Up -> 4:4:4 Q100 ... Done.
+  Result in test_enc8_BGRX_BU_444_Q100.jpg
+JPEG -> BGRX Bottom-Up 2/1 ... Passed.
+JPEG -> BGRX Bottom-Up 15/8 ... Passed.
+JPEG -> BGRX Bottom-Up 7/4 ... Passed.
+JPEG -> BGRX Bottom-Up 13/8 ... Passed.
+JPEG -> BGRX Bottom-Up 3/2 ... Passed.
+JPEG -> BGRX Bottom-Up 11/8 ... Passed.
+JPEG -> BGRX Bottom-Up 5/4 ... Passed.
+JPEG -> BGRX Bottom-Up 9/8 ... Passed.
+JPEG -> BGRX Bottom-Up ... Passed.
+JPEG -> BGRX Bottom-Up 7/8 ... Passed.
+JPEG -> BGRX Bottom-Up 3/4 ... Passed.
+JPEG -> BGRX Bottom-Up 5/8 ... Passed.
+JPEG -> BGRX Bottom-Up 1/2 ... Passed.
+JPEG -> BGRX Bottom-Up 3/8 ... Passed.
+JPEG -> BGRX Bottom-Up 1/4 ... Passed.
+JPEG -> BGRX Bottom-Up 1/8 ... Passed.
+
+JPEG -> BGRA Bottom-Up 2/1 ... Passed.
+JPEG -> BGRA Bottom-Up 15/8 ... Passed.
+JPEG -> BGRA Bottom-Up 7/4 ... Passed.
+JPEG -> BGRA Bottom-Up 13/8 ... Passed.
+JPEG -> BGRA Bottom-Up 3/2 ... Passed.
+JPEG -> BGRA Bottom-Up 11/8 ... Passed.
+JPEG -> BGRA Bottom-Up 5/4 ... Passed.
+JPEG -> BGRA Bottom-Up 9/8 ... Passed.
+JPEG -> BGRA Bottom-Up ... Passed.
+JPEG -> BGRA Bottom-Up 7/8 ... Passed.
+JPEG -> BGRA Bottom-Up 3/4 ... Passed.
+JPEG -> BGRA Bottom-Up 5/8 ... Passed.
+JPEG -> BGRA Bottom-Up 1/2 ... Passed.
+JPEG -> BGRA Bottom-Up 3/8 ... Passed.
+JPEG -> BGRA Bottom-Up 1/4 ... Passed.
+JPEG -> BGRA Bottom-Up 1/8 ... Passed.
+
+XBGR Top-Down  -> 4:4:4 Q100 ... Done.
+  Result in test_enc8_XBGR_TD_444_Q100.jpg
+JPEG -> XBGR Top-Down  2/1 ... Passed.
+JPEG -> XBGR Top-Down  15/8 ... Passed.
+JPEG -> XBGR Top-Down  7/4 ... Passed.
+JPEG -> XBGR Top-Down  13/8 ... Passed.
+JPEG -> XBGR Top-Down  3/2 ... Passed.
+JPEG -> XBGR Top-Down  11/8 ... Passed.
+JPEG -> XBGR Top-Down  5/4 ... Passed.
+JPEG -> XBGR Top-Down  9/8 ... Passed.
+JPEG -> XBGR Top-Down  ... Passed.
+JPEG -> XBGR Top-Down  7/8 ... Passed.
+JPEG -> XBGR Top-Down  3/4 ... Passed.
+JPEG -> XBGR Top-Down  5/8 ... Passed.
+JPEG -> XBGR Top-Down  1/2 ... Passed.
+JPEG -> XBGR Top-Down  3/8 ... Passed.
+JPEG -> XBGR Top-Down  1/4 ... Passed.
+JPEG -> XBGR Top-Down  1/8 ... Passed.
+
+JPEG -> ABGR Top-Down  2/1 ... Passed.
+JPEG -> ABGR Top-Down  15/8 ... Passed.
+JPEG -> ABGR Top-Down  7/4 ... Passed.
+JPEG -> ABGR Top-Down  13/8 ... Passed.
+JPEG -> ABGR Top-Down  3/2 ... Passed.
+JPEG -> ABGR Top-Down  11/8 ... Passed.
+JPEG -> ABGR Top-Down  5/4 ... Passed.
+JPEG -> ABGR Top-Down  9/8 ... Passed.
+JPEG -> ABGR Top-Down  ... Passed.
+JPEG -> ABGR Top-Down  7/8 ... Passed.
+JPEG -> ABGR Top-Down  3/4 ... Passed.
+JPEG -> ABGR Top-Down  5/8 ... Passed.
+JPEG -> ABGR Top-Down  1/2 ... Passed.
+JPEG -> ABGR Top-Down  3/8 ... Passed.
+JPEG -> ABGR Top-Down  1/4 ... Passed.
+JPEG -> ABGR Top-Down  1/8 ... Passed.
+
+XBGR Bottom-Up -> 4:4:4 Q100 ... Done.
+  Result in test_enc8_XBGR_BU_444_Q100.jpg
+JPEG -> XBGR Bottom-Up 2/1 ... Passed.
+JPEG -> XBGR Bottom-Up 15/8 ... Passed.
+JPEG -> XBGR Bottom-Up 7/4 ... Passed.
+JPEG -> XBGR Bottom-Up 13/8 ... Passed.
+JPEG -> XBGR Bottom-Up 3/2 ... Passed.
+JPEG -> XBGR Bottom-Up 11/8 ... Passed.
+JPEG -> XBGR Bottom-Up 5/4 ... Passed.
+JPEG -> XBGR Bottom-Up 9/8 ... Passed.
+JPEG -> XBGR Bottom-Up ... Passed.
+JPEG -> XBGR Bottom-Up 7/8 ... Passed.
+JPEG -> XBGR Bottom-Up 3/4 ... Passed.
+JPEG -> XBGR Bottom-Up 5/8 ... Passed.
+JPEG -> XBGR Bottom-Up 1/2 ... Passed.
+JPEG -> XBGR Bottom-Up 3/8 ... Passed.
+JPEG -> XBGR Bottom-Up 1/4 ... Passed.
+JPEG -> XBGR Bottom-Up 1/8 ... Passed.
+
+JPEG -> ABGR Bottom-Up 2/1 ... Passed.
+JPEG -> ABGR Bottom-Up 15/8 ... Passed.
+JPEG -> ABGR Bottom-Up 7/4 ... Passed.
+JPEG -> ABGR Bottom-Up 13/8 ... Passed.
+JPEG -> ABGR Bottom-Up 3/2 ... Passed.
+JPEG -> ABGR Bottom-Up 11/8 ... Passed.
+JPEG -> ABGR Bottom-Up 5/4 ... Passed.
+JPEG -> ABGR Bottom-Up 9/8 ... Passed.
+JPEG -> ABGR Bottom-Up ... Passed.
+JPEG -> ABGR Bottom-Up 7/8 ... Passed.
+JPEG -> ABGR Bottom-Up 3/4 ... Passed.
+JPEG -> ABGR Bottom-Up 5/8 ... Passed.
+JPEG -> ABGR Bottom-Up 1/2 ... Passed.
+JPEG -> ABGR Bottom-Up 3/8 ... Passed.
+JPEG -> ABGR Bottom-Up 1/4 ... Passed.
+JPEG -> ABGR Bottom-Up 1/8 ... Passed.
+
+XRGB Top-Down  -> 4:4:4 Q100 ... Done.
+  Result in test_enc8_XRGB_TD_444_Q100.jpg
+JPEG -> XRGB Top-Down  2/1 ... Passed.
+JPEG -> XRGB Top-Down  15/8 ... Passed.
+JPEG -> XRGB Top-Down  7/4 ... Passed.
+JPEG -> XRGB Top-Down  13/8 ... Passed.
+JPEG -> XRGB Top-Down  3/2 ... Passed.
+JPEG -> XRGB Top-Down  11/8 ... Passed.
+JPEG -> XRGB Top-Down  5/4 ... Passed.
+JPEG -> XRGB Top-Down  9/8 ... Passed.
+JPEG -> XRGB Top-Down  ... Passed.
+JPEG -> XRGB Top-Down  7/8 ... Passed.
+JPEG -> XRGB Top-Down  3/4 ... Passed.
+JPEG -> XRGB Top-Down  5/8 ... Passed.
+JPEG -> XRGB Top-Down  1/2 ... Passed.
+JPEG -> XRGB Top-Down  3/8 ... Passed.
+JPEG -> XRGB Top-Down  1/4 ... Passed.
+JPEG -> XRGB Top-Down  1/8 ... Passed.
+
+JPEG -> ARGB Top-Down  2/1 ... Passed.
+JPEG -> ARGB Top-Down  15/8 ... Passed.
+JPEG -> ARGB Top-Down  7/4 ... Passed.
+JPEG -> ARGB Top-Down  13/8 ... Passed.
+JPEG -> ARGB Top-Down  3/2 ... Passed.
+JPEG -> ARGB Top-Down  11/8 ... Passed.
+JPEG -> ARGB Top-Down  5/4 ... Passed.
+JPEG -> ARGB Top-Down  9/8 ... Passed.
+JPEG -> ARGB Top-Down  ... Passed.
+JPEG -> ARGB Top-Down  7/8 ... Passed.
+JPEG -> ARGB Top-Down  3/4 ... Passed.
+JPEG -> ARGB Top-Down  5/8 ... Passed.
+JPEG -> ARGB Top-Down  1/2 ... Passed.
+JPEG -> ARGB Top-Down  3/8 ... Passed.
+JPEG -> ARGB Top-Down  1/4 ... Passed.
+JPEG -> ARGB Top-Down  1/8 ... Passed.
+
+XRGB Bottom-Up -> 4:4:4 Q100 ... Done.
+  Result in test_enc8_XRGB_BU_444_Q100.jpg
+JPEG -> XRGB Bottom-Up 2/1 ... Passed.
+JPEG -> XRGB Bottom-Up 15/8 ... Passed.
+JPEG -> XRGB Bottom-Up 7/4 ... Passed.
+JPEG -> XRGB Bottom-Up 13/8 ... Passed.
+JPEG -> XRGB Bottom-Up 3/2 ... Passed.
+JPEG -> XRGB Bottom-Up 11/8 ... Passed.
+JPEG -> XRGB Bottom-Up 5/4 ... Passed.
+JPEG -> XRGB Bottom-Up 9/8 ... Passed.
+JPEG -> XRGB Bottom-Up ... Passed.
+JPEG -> XRGB Bottom-Up 7/8 ... Passed.
+JPEG -> XRGB Bottom-Up 3/4 ... Passed.
+JPEG -> XRGB Bottom-Up 5/8 ... Passed.
+JPEG -> XRGB Bottom-Up 1/2 ... Passed.
+JPEG -> XRGB Bottom-Up 3/8 ... Passed.
+JPEG -> XRGB Bottom-Up 1/4 ... Passed.
+JPEG -> XRGB Bottom-Up 1/8 ... Passed.
+
+JPEG -> ARGB Bottom-Up 2/1 ... Passed.
+JPEG -> ARGB Bottom-Up 15/8 ... Passed.
+JPEG -> ARGB Bottom-Up 7/4 ... Passed.
+JPEG -> ARGB Bottom-Up 13/8 ... Passed.
+JPEG -> ARGB Bottom-Up 3/2 ... Passed.
+JPEG -> ARGB Bottom-Up 11/8 ... Passed.
+JPEG -> ARGB Bottom-Up 5/4 ... Passed.
+JPEG -> ARGB Bottom-Up 9/8 ... Passed.
+JPEG -> ARGB Bottom-Up ... Passed.
+JPEG -> ARGB Bottom-Up 7/8 ... Passed.
+JPEG -> ARGB Bottom-Up 3/4 ... Passed.
+JPEG -> ARGB Bottom-Up 5/8 ... Passed.
+JPEG -> ARGB Bottom-Up 1/2 ... Passed.
+JPEG -> ARGB Bottom-Up 3/8 ... Passed.
+JPEG -> ARGB Bottom-Up 1/4 ... Passed.
+JPEG -> ARGB Bottom-Up 1/8 ... Passed.
+
+CMYK Top-Down  -> 4:4:4 Q100 ... Done.
+  Result in test_enc8_CMYK_TD_444_Q100.jpg
+JPEG -> CMYK Top-Down  2/1 ... Passed.
+JPEG -> CMYK Top-Down  15/8 ... Passed.
+JPEG -> CMYK Top-Down  7/4 ... Passed.
+JPEG -> CMYK Top-Down  13/8 ... Passed.
+JPEG -> CMYK Top-Down  3/2 ... Passed.
+JPEG -> CMYK Top-Down  11/8 ... Passed.
+JPEG -> CMYK Top-Down  5/4 ... Passed.
+JPEG -> CMYK Top-Down  9/8 ... Passed.
+JPEG -> CMYK Top-Down  ... Passed.
+JPEG -> CMYK Top-Down  7/8 ... Passed.
+JPEG -> CMYK Top-Down  3/4 ... Passed.
+JPEG -> CMYK Top-Down  5/8 ... Passed.
+JPEG -> CMYK Top-Down  1/2 ... Passed.
+JPEG -> CMYK Top-Down  3/8 ... Passed.
+JPEG -> CMYK Top-Down  1/4 ... Passed.
+JPEG -> CMYK Top-Down  1/8 ... Passed.
+
+CMYK Bottom-Up -> 4:4:4 Q100 ... Done.
+  Result in test_enc8_CMYK_BU_444_Q100.jpg
+JPEG -> CMYK Bottom-Up 2/1 ... Passed.
+JPEG -> CMYK Bottom-Up 15/8 ... Passed.
+JPEG -> CMYK Bottom-Up 7/4 ... Passed.
+JPEG -> CMYK Bottom-Up 13/8 ... Passed.
+JPEG -> CMYK Bottom-Up 3/2 ... Passed.
+JPEG -> CMYK Bottom-Up 11/8 ... Passed.
+JPEG -> CMYK Bottom-Up 5/4 ... Passed.
+JPEG -> CMYK Bottom-Up 9/8 ... Passed.
+JPEG -> CMYK Bottom-Up ... Passed.
+JPEG -> CMYK Bottom-Up 7/8 ... Passed.
+JPEG -> CMYK Bottom-Up 3/4 ... Passed.
+JPEG -> CMYK Bottom-Up 5/8 ... Passed.
+JPEG -> CMYK Bottom-Up 1/2 ... Passed.
+JPEG -> CMYK Bottom-Up 3/8 ... Passed.
+JPEG -> CMYK Bottom-Up 1/4 ... Passed.
+JPEG -> CMYK Bottom-Up 1/8 ... Passed.
+
+--------------------
+
+RGB Top-Down  -> 4:2:2 Q100 ... Done.
+  Result in test_enc8_RGB_TD_422_Q100.jpg
+JPEG -> RGB Top-Down  ... Passed.
+JPEG -> RGB Top-Down  1/2 ... Passed.
+JPEG -> RGB Top-Down  1/4 ... Passed.
+
+RGB Bottom-Up -> 4:2:2 Q100 ... Done.
+  Result in test_enc8_RGB_BU_422_Q100.jpg
+JPEG -> RGB Bottom-Up ... Passed.
+JPEG -> RGB Bottom-Up 1/2 ... Passed.
+JPEG -> RGB Bottom-Up 1/4 ... Passed.
+
+BGR Top-Down  -> 4:2:2 Q100 ... Done.
+  Result in test_enc8_BGR_TD_422_Q100.jpg
+JPEG -> BGR Top-Down  ... Passed.
+JPEG -> BGR Top-Down  1/2 ... Passed.
+JPEG -> BGR Top-Down  1/4 ... Passed.
+
+BGR Bottom-Up -> 4:2:2 Q100 ... Done.
+  Result in test_enc8_BGR_BU_422_Q100.jpg
+JPEG -> BGR Bottom-Up ... Passed.
+JPEG -> BGR Bottom-Up 1/2 ... Passed.
+JPEG -> BGR Bottom-Up 1/4 ... Passed.
+
+--------------------
+
+RGBX Top-Down  -> 4:2:2 Q100 ... Done.
+  Result in test_enc8_RGBX_TD_422_Q100.jpg
+JPEG -> RGBX Top-Down  ... Passed.
+JPEG -> RGBX Top-Down  1/2 ... Passed.
+JPEG -> RGBX Top-Down  1/4 ... Passed.
+
+JPEG -> RGBA Top-Down  ... Passed.
+JPEG -> RGBA Top-Down  1/2 ... Passed.
+JPEG -> RGBA Top-Down  1/4 ... Passed.
+
+RGBX Bottom-Up -> 4:2:2 Q100 ... Done.
+  Result in test_enc8_RGBX_BU_422_Q100.jpg
+JPEG -> RGBX Bottom-Up ... Passed.
+JPEG -> RGBX Bottom-Up 1/2 ... Passed.
+JPEG -> RGBX Bottom-Up 1/4 ... Passed.
+
+JPEG -> RGBA Bottom-Up ... Passed.
+JPEG -> RGBA Bottom-Up 1/2 ... Passed.
+JPEG -> RGBA Bottom-Up 1/4 ... Passed.
+
+BGRX Top-Down  -> 4:2:2 Q100 ... Done.
+  Result in test_enc8_BGRX_TD_422_Q100.jpg
+JPEG -> BGRX Top-Down  ... Passed.
+JPEG -> BGRX Top-Down  1/2 ... Passed.
+JPEG -> BGRX Top-Down  1/4 ... Passed.
+
+JPEG -> BGRA Top-Down  ... Passed.
+JPEG -> BGRA Top-Down  1/2 ... Passed.
+JPEG -> BGRA Top-Down  1/4 ... Passed.
+
+BGRX Bottom-Up -> 4:2:2 Q100 ... Done.
+  Result in test_enc8_BGRX_BU_422_Q100.jpg
+JPEG -> BGRX Bottom-Up ... Passed.
+JPEG -> BGRX Bottom-Up 1/2 ... Passed.
+JPEG -> BGRX Bottom-Up 1/4 ... Passed.
+
+JPEG -> BGRA Bottom-Up ... Passed.
+JPEG -> BGRA Bottom-Up 1/2 ... Passed.
+JPEG -> BGRA Bottom-Up 1/4 ... Passed.
+
+XBGR Top-Down  -> 4:2:2 Q100 ... Done.
+  Result in test_enc8_XBGR_TD_422_Q100.jpg
+JPEG -> XBGR Top-Down  ... Passed.
+JPEG -> XBGR Top-Down  1/2 ... Passed.
+JPEG -> XBGR Top-Down  1/4 ... Passed.
+
+JPEG -> ABGR Top-Down  ... Passed.
+JPEG -> ABGR Top-Down  1/2 ... Passed.
+JPEG -> ABGR Top-Down  1/4 ... Passed.
+
+XBGR Bottom-Up -> 4:2:2 Q100 ... Done.
+  Result in test_enc8_XBGR_BU_422_Q100.jpg
+JPEG -> XBGR Bottom-Up ... Passed.
+JPEG -> XBGR Bottom-Up 1/2 ... Passed.
+JPEG -> XBGR Bottom-Up 1/4 ... Passed.
+
+JPEG -> ABGR Bottom-Up ... Passed.
+JPEG -> ABGR Bottom-Up 1/2 ... Passed.
+JPEG -> ABGR Bottom-Up 1/4 ... Passed.
+
+XRGB Top-Down  -> 4:2:2 Q100 ... Done.
+  Result in test_enc8_XRGB_TD_422_Q100.jpg
+JPEG -> XRGB Top-Down  ... Passed.
+JPEG -> XRGB Top-Down  1/2 ... Passed.
+JPEG -> XRGB Top-Down  1/4 ... Passed.
+
+JPEG -> ARGB Top-Down  ... Passed.
+JPEG -> ARGB Top-Down  1/2 ... Passed.
+JPEG -> ARGB Top-Down  1/4 ... Passed.
+
+XRGB Bottom-Up -> 4:2:2 Q100 ... Done.
+  Result in test_enc8_XRGB_BU_422_Q100.jpg
+JPEG -> XRGB Bottom-Up ... Passed.
+JPEG -> XRGB Bottom-Up 1/2 ... Passed.
+JPEG -> XRGB Bottom-Up 1/4 ... Passed.
+
+JPEG -> ARGB Bottom-Up ... Passed.
+JPEG -> ARGB Bottom-Up 1/2 ... Passed.
+JPEG -> ARGB Bottom-Up 1/4 ... Passed.
+
+CMYK Top-Down  -> 4:2:2 Q100 ... Done.
+  Result in test_enc8_CMYK_TD_422_Q100.jpg
+JPEG -> CMYK Top-Down  ... Passed.
+JPEG -> CMYK Top-Down  1/2 ... Passed.
+JPEG -> CMYK Top-Down  1/4 ... Passed.
+
+CMYK Bottom-Up -> 4:2:2 Q100 ... Done.
+  Result in test_enc8_CMYK_BU_422_Q100.jpg
+JPEG -> CMYK Bottom-Up ... Passed.
+JPEG -> CMYK Bottom-Up 1/2 ... Passed.
+JPEG -> CMYK Bottom-Up 1/4 ... Passed.
+
+--------------------
+
+RGB Top-Down  -> 4:2:0 Q100 ... Done.
+  Result in test_enc8_RGB_TD_420_Q100.jpg
+JPEG -> RGB Top-Down  ... Passed.
+JPEG -> RGB Top-Down  1/2 ... Passed.
+JPEG -> RGB Top-Down  1/4 ... Passed.
+JPEG -> RGB Top-Down  1/8 ... Passed.
+
+RGB Bottom-Up -> 4:2:0 Q100 ... Done.
+  Result in test_enc8_RGB_BU_420_Q100.jpg
+JPEG -> RGB Bottom-Up ... Passed.
+JPEG -> RGB Bottom-Up 1/2 ... Passed.
+JPEG -> RGB Bottom-Up 1/4 ... Passed.
+JPEG -> RGB Bottom-Up 1/8 ... Passed.
+
+BGR Top-Down  -> 4:2:0 Q100 ... Done.
+  Result in test_enc8_BGR_TD_420_Q100.jpg
+JPEG -> BGR Top-Down  ... Passed.
+JPEG -> BGR Top-Down  1/2 ... Passed.
+JPEG -> BGR Top-Down  1/4 ... Passed.
+JPEG -> BGR Top-Down  1/8 ... Passed.
+
+BGR Bottom-Up -> 4:2:0 Q100 ... Done.
+  Result in test_enc8_BGR_BU_420_Q100.jpg
+JPEG -> BGR Bottom-Up ... Passed.
+JPEG -> BGR Bottom-Up 1/2 ... Passed.
+JPEG -> BGR Bottom-Up 1/4 ... Passed.
+JPEG -> BGR Bottom-Up 1/8 ... Passed.
+
+--------------------
+
+RGBX Top-Down  -> 4:2:0 Q100 ... Done.
+  Result in test_enc8_RGBX_TD_420_Q100.jpg
+JPEG -> RGBX Top-Down  ... Passed.
+JPEG -> RGBX Top-Down  1/2 ... Passed.
+JPEG -> RGBX Top-Down  1/4 ... Passed.
+JPEG -> RGBX Top-Down  1/8 ... Passed.
+
+JPEG -> RGBA Top-Down  ... Passed.
+JPEG -> RGBA Top-Down  1/2 ... Passed.
+JPEG -> RGBA Top-Down  1/4 ... Passed.
+JPEG -> RGBA Top-Down  1/8 ... Passed.
+
+RGBX Bottom-Up -> 4:2:0 Q100 ... Done.
+  Result in test_enc8_RGBX_BU_420_Q100.jpg
+JPEG -> RGBX Bottom-Up ... Passed.
+JPEG -> RGBX Bottom-Up 1/2 ... Passed.
+JPEG -> RGBX Bottom-Up 1/4 ... Passed.
+JPEG -> RGBX Bottom-Up 1/8 ... Passed.
+
+JPEG -> RGBA Bottom-Up ... Passed.
+JPEG -> RGBA Bottom-Up 1/2 ... Passed.
+JPEG -> RGBA Bottom-Up 1/4 ... Passed.
+JPEG -> RGBA Bottom-Up 1/8 ... Passed.
+
+BGRX Top-Down  -> 4:2:0 Q100 ... Done.
+  Result in test_enc8_BGRX_TD_420_Q100.jpg
+JPEG -> BGRX Top-Down  ... Passed.
+JPEG -> BGRX Top-Down  1/2 ... Passed.
+JPEG -> BGRX Top-Down  1/4 ... Passed.
+JPEG -> BGRX Top-Down  1/8 ... Passed.
+
+JPEG -> BGRA Top-Down  ... Passed.
+JPEG -> BGRA Top-Down  1/2 ... Passed.
+JPEG -> BGRA Top-Down  1/4 ... Passed.
+JPEG -> BGRA Top-Down  1/8 ... Passed.
+
+BGRX Bottom-Up -> 4:2:0 Q100 ... Done.
+  Result in test_enc8_BGRX_BU_420_Q100.jpg
+JPEG -> BGRX Bottom-Up ... Passed.
+JPEG -> BGRX Bottom-Up 1/2 ... Passed.
+JPEG -> BGRX Bottom-Up 1/4 ... Passed.
+JPEG -> BGRX Bottom-Up 1/8 ... Passed.
+
+JPEG -> BGRA Bottom-Up ... Passed.
+JPEG -> BGRA Bottom-Up 1/2 ... Passed.
+JPEG -> BGRA Bottom-Up 1/4 ... Passed.
+JPEG -> BGRA Bottom-Up 1/8 ... Passed.
+
+XBGR Top-Down  -> 4:2:0 Q100 ... Done.
+  Result in test_enc8_XBGR_TD_420_Q100.jpg
+JPEG -> XBGR Top-Down  ... Passed.
+JPEG -> XBGR Top-Down  1/2 ... Passed.
+JPEG -> XBGR Top-Down  1/4 ... Passed.
+JPEG -> XBGR Top-Down  1/8 ... Passed.
+
+JPEG -> ABGR Top-Down  ... Passed.
+JPEG -> ABGR Top-Down  1/2 ... Passed.
+JPEG -> ABGR Top-Down  1/4 ... Passed.
+JPEG -> ABGR Top-Down  1/8 ... Passed.
+
+XBGR Bottom-Up -> 4:2:0 Q100 ... Done.
+  Result in test_enc8_XBGR_BU_420_Q100.jpg
+JPEG -> XBGR Bottom-Up ... Passed.
+JPEG -> XBGR Bottom-Up 1/2 ... Passed.
+JPEG -> XBGR Bottom-Up 1/4 ... Passed.
+JPEG -> XBGR Bottom-Up 1/8 ... Passed.
+
+JPEG -> ABGR Bottom-Up ... Passed.
+JPEG -> ABGR Bottom-Up 1/2 ... Passed.
+JPEG -> ABGR Bottom-Up 1/4 ... Passed.
+JPEG -> ABGR Bottom-Up 1/8 ... Passed.
+
+XRGB Top-Down  -> 4:2:0 Q100 ... Done.
+  Result in test_enc8_XRGB_TD_420_Q100.jpg
+JPEG -> XRGB Top-Down  ... Passed.
+JPEG -> XRGB Top-Down  1/2 ... Passed.
+JPEG -> XRGB Top-Down  1/4 ... Passed.
+JPEG -> XRGB Top-Down  1/8 ... Passed.
+
+JPEG -> ARGB Top-Down  ... Passed.
+JPEG -> ARGB Top-Down  1/2 ... Passed.
+JPEG -> ARGB Top-Down  1/4 ... Passed.
+JPEG -> ARGB Top-Down  1/8 ... Passed.
+
+XRGB Bottom-Up -> 4:2:0 Q100 ... Done.
+  Result in test_enc8_XRGB_BU_420_Q100.jpg
+JPEG -> XRGB Bottom-Up ... Passed.
+JPEG -> XRGB Bottom-Up 1/2 ... Passed.
+JPEG -> XRGB Bottom-Up 1/4 ... Passed.
+JPEG -> XRGB Bottom-Up 1/8 ... Passed.
+
+JPEG -> ARGB Bottom-Up ... Passed.
+JPEG -> ARGB Bottom-Up 1/2 ... Passed.
+JPEG -> ARGB Bottom-Up 1/4 ... Passed.
+JPEG -> ARGB Bottom-Up 1/8 ... Passed.
+
+CMYK Top-Down  -> 4:2:0 Q100 ... Done.
+  Result in test_enc8_CMYK_TD_420_Q100.jpg
+JPEG -> CMYK Top-Down  ... Passed.
+JPEG -> CMYK Top-Down  1/2 ... Passed.
+JPEG -> CMYK Top-Down  1/4 ... Passed.
+JPEG -> CMYK Top-Down  1/8 ... Passed.
+
+CMYK Bottom-Up -> 4:2:0 Q100 ... Done.
+  Result in test_enc8_CMYK_BU_420_Q100.jpg
+JPEG -> CMYK Bottom-Up ... Passed.
+JPEG -> CMYK Bottom-Up 1/2 ... Passed.
+JPEG -> CMYK Bottom-Up 1/4 ... Passed.
+JPEG -> CMYK Bottom-Up 1/8 ... Passed.
+
+--------------------
+
+RGB Top-Down  -> 4:4:0 Q100 ... Done.
+  Result in test_enc8_RGB_TD_440_Q100.jpg
+JPEG -> RGB Top-Down  ... Passed.
+JPEG -> RGB Top-Down  1/2 ... Passed.
+JPEG -> RGB Top-Down  1/4 ... Passed.
+
+RGB Bottom-Up -> 4:4:0 Q100 ... Done.
+  Result in test_enc8_RGB_BU_440_Q100.jpg
+JPEG -> RGB Bottom-Up ... Passed.
+JPEG -> RGB Bottom-Up 1/2 ... Passed.
+JPEG -> RGB Bottom-Up 1/4 ... Passed.
+
+BGR Top-Down  -> 4:4:0 Q100 ... Done.
+  Result in test_enc8_BGR_TD_440_Q100.jpg
+JPEG -> BGR Top-Down  ... Passed.
+JPEG -> BGR Top-Down  1/2 ... Passed.
+JPEG -> BGR Top-Down  1/4 ... Passed.
+
+BGR Bottom-Up -> 4:4:0 Q100 ... Done.
+  Result in test_enc8_BGR_BU_440_Q100.jpg
+JPEG -> BGR Bottom-Up ... Passed.
+JPEG -> BGR Bottom-Up 1/2 ... Passed.
+JPEG -> BGR Bottom-Up 1/4 ... Passed.
+
+--------------------
+
+RGBX Top-Down  -> 4:4:0 Q100 ... Done.
+  Result in test_enc8_RGBX_TD_440_Q100.jpg
+JPEG -> RGBX Top-Down  ... Passed.
+JPEG -> RGBX Top-Down  1/2 ... Passed.
+JPEG -> RGBX Top-Down  1/4 ... Passed.
+
+JPEG -> RGBA Top-Down  ... Passed.
+JPEG -> RGBA Top-Down  1/2 ... Passed.
+JPEG -> RGBA Top-Down  1/4 ... Passed.
+
+RGBX Bottom-Up -> 4:4:0 Q100 ... Done.
+  Result in test_enc8_RGBX_BU_440_Q100.jpg
+JPEG -> RGBX Bottom-Up ... Passed.
+JPEG -> RGBX Bottom-Up 1/2 ... Passed.
+JPEG -> RGBX Bottom-Up 1/4 ... Passed.
+
+JPEG -> RGBA Bottom-Up ... Passed.
+JPEG -> RGBA Bottom-Up 1/2 ... Passed.
+JPEG -> RGBA Bottom-Up 1/4 ... Passed.
+
+BGRX Top-Down  -> 4:4:0 Q100 ... Done.
+  Result in test_enc8_BGRX_TD_440_Q100.jpg
+JPEG -> BGRX Top-Down  ... Passed.
+JPEG -> BGRX Top-Down  1/2 ... Passed.
+JPEG -> BGRX Top-Down  1/4 ... Passed.
+
+JPEG -> BGRA Top-Down  ... Passed.
+JPEG -> BGRA Top-Down  1/2 ... Passed.
+JPEG -> BGRA Top-Down  1/4 ... Passed.
+
+BGRX Bottom-Up -> 4:4:0 Q100 ... Done.
+  Result in test_enc8_BGRX_BU_440_Q100.jpg
+JPEG -> BGRX Bottom-Up ... Passed.
+JPEG -> BGRX Bottom-Up 1/2 ... Passed.
+JPEG -> BGRX Bottom-Up 1/4 ... Passed.
+
+JPEG -> BGRA Bottom-Up ... Passed.
+JPEG -> BGRA Bottom-Up 1/2 ... Passed.
+JPEG -> BGRA Bottom-Up 1/4 ... Passed.
+
+XBGR Top-Down  -> 4:4:0 Q100 ... Done.
+  Result in test_enc8_XBGR_TD_440_Q100.jpg
+JPEG -> XBGR Top-Down  ... Passed.
+JPEG -> XBGR Top-Down  1/2 ... Passed.
+JPEG -> XBGR Top-Down  1/4 ... Passed.
+
+JPEG -> ABGR Top-Down  ... Passed.
+JPEG -> ABGR Top-Down  1/2 ... Passed.
+JPEG -> ABGR Top-Down  1/4 ... Passed.
+
+XBGR Bottom-Up -> 4:4:0 Q100 ... Done.
+  Result in test_enc8_XBGR_BU_440_Q100.jpg
+JPEG -> XBGR Bottom-Up ... Passed.
+JPEG -> XBGR Bottom-Up 1/2 ... Passed.
+JPEG -> XBGR Bottom-Up 1/4 ... Passed.
+
+JPEG -> ABGR Bottom-Up ... Passed.
+JPEG -> ABGR Bottom-Up 1/2 ... Passed.
+JPEG -> ABGR Bottom-Up 1/4 ... Passed.
+
+XRGB Top-Down  -> 4:4:0 Q100 ... Done.
+  Result in test_enc8_XRGB_TD_440_Q100.jpg
+JPEG -> XRGB Top-Down  ... Passed.
+JPEG -> XRGB Top-Down  1/2 ... Passed.
+JPEG -> XRGB Top-Down  1/4 ... Passed.
+
+JPEG -> ARGB Top-Down  ... Passed.
+JPEG -> ARGB Top-Down  1/2 ... Passed.
+JPEG -> ARGB Top-Down  1/4 ... Passed.
+
+XRGB Bottom-Up -> 4:4:0 Q100 ... Done.
+  Result in test_enc8_XRGB_BU_440_Q100.jpg
+JPEG -> XRGB Bottom-Up ... Passed.
+JPEG -> XRGB Bottom-Up 1/2 ... Passed.
+JPEG -> XRGB Bottom-Up 1/4 ... Passed.
+
+JPEG -> ARGB Bottom-Up ... Passed.
+JPEG -> ARGB Bottom-Up 1/2 ... Passed.
+JPEG -> ARGB Bottom-Up 1/4 ... Passed.
+
+CMYK Top-Down  -> 4:4:0 Q100 ... Done.
+  Result in test_enc8_CMYK_TD_440_Q100.jpg
+JPEG -> CMYK Top-Down  ... Passed.
+JPEG -> CMYK Top-Down  1/2 ... Passed.
+JPEG -> CMYK Top-Down  1/4 ... Passed.
+
+CMYK Bottom-Up -> 4:4:0 Q100 ... Done.
+  Result in test_enc8_CMYK_BU_440_Q100.jpg
+JPEG -> CMYK Bottom-Up ... Passed.
+JPEG -> CMYK Bottom-Up 1/2 ... Passed.
+JPEG -> CMYK Bottom-Up 1/4 ... Passed.
+
+--------------------
+
+RGB Top-Down  -> 4:1:1 Q100 ... Done.
+  Result in test_enc8_RGB_TD_411_Q100.jpg
+JPEG -> RGB Top-Down  ... Passed.
+JPEG -> RGB Top-Down  1/2 ... Passed.
+
+RGB Bottom-Up -> 4:1:1 Q100 ... Done.
+  Result in test_enc8_RGB_BU_411_Q100.jpg
+JPEG -> RGB Bottom-Up ... Passed.
+JPEG -> RGB Bottom-Up 1/2 ... Passed.
+
+BGR Top-Down  -> 4:1:1 Q100 ... Done.
+  Result in test_enc8_BGR_TD_411_Q100.jpg
+JPEG -> BGR Top-Down  ... Passed.
+JPEG -> BGR Top-Down  1/2 ... Passed.
+
+BGR Bottom-Up -> 4:1:1 Q100 ... Done.
+  Result in test_enc8_BGR_BU_411_Q100.jpg
+JPEG -> BGR Bottom-Up ... Passed.
+JPEG -> BGR Bottom-Up 1/2 ... Passed.
+
+--------------------
+
+RGBX Top-Down  -> 4:1:1 Q100 ... Done.
+  Result in test_enc8_RGBX_TD_411_Q100.jpg
+JPEG -> RGBX Top-Down  ... Passed.
+JPEG -> RGBX Top-Down  1/2 ... Passed.
+
+JPEG -> RGBA Top-Down  ... Passed.
+JPEG -> RGBA Top-Down  1/2 ... Passed.
+
+RGBX Bottom-Up -> 4:1:1 Q100 ... Done.
+  Result in test_enc8_RGBX_BU_411_Q100.jpg
+JPEG -> RGBX Bottom-Up ... Passed.
+JPEG -> RGBX Bottom-Up 1/2 ... Passed.
+
+JPEG -> RGBA Bottom-Up ... Passed.
+JPEG -> RGBA Bottom-Up 1/2 ... Passed.
+
+BGRX Top-Down  -> 4:1:1 Q100 ... Done.
+  Result in test_enc8_BGRX_TD_411_Q100.jpg
+JPEG -> BGRX Top-Down  ... Passed.
+JPEG -> BGRX Top-Down  1/2 ... Passed.
+
+JPEG -> BGRA Top-Down  ... Passed.
+JPEG -> BGRA Top-Down  1/2 ... Passed.
+
+BGRX Bottom-Up -> 4:1:1 Q100 ... Done.
+  Result in test_enc8_BGRX_BU_411_Q100.jpg
+JPEG -> BGRX Bottom-Up ... Passed.
+JPEG -> BGRX Bottom-Up 1/2 ... Passed.
+
+JPEG -> BGRA Bottom-Up ... Passed.
+JPEG -> BGRA Bottom-Up 1/2 ... Passed.
+
+XBGR Top-Down  -> 4:1:1 Q100 ... Done.
+  Result in test_enc8_XBGR_TD_411_Q100.jpg
+JPEG -> XBGR Top-Down  ... Passed.
+JPEG -> XBGR Top-Down  1/2 ... Passed.
+
+JPEG -> ABGR Top-Down  ... Passed.
+JPEG -> ABGR Top-Down  1/2 ... Passed.
+
+XBGR Bottom-Up -> 4:1:1 Q100 ... Done.
+  Result in test_enc8_XBGR_BU_411_Q100.jpg
+JPEG -> XBGR Bottom-Up ... Passed.
+JPEG -> XBGR Bottom-Up 1/2 ... Passed.
+
+JPEG -> ABGR Bottom-Up ... Passed.
+JPEG -> ABGR Bottom-Up 1/2 ... Passed.
+
+XRGB Top-Down  -> 4:1:1 Q100 ... Done.
+  Result in test_enc8_XRGB_TD_411_Q100.jpg
+JPEG -> XRGB Top-Down  ... Passed.
+JPEG -> XRGB Top-Down  1/2 ... Passed.
+
+JPEG -> ARGB Top-Down  ... Passed.
+JPEG -> ARGB Top-Down  1/2 ... Passed.
+
+XRGB Bottom-Up -> 4:1:1 Q100 ... Done.
+  Result in test_enc8_XRGB_BU_411_Q100.jpg
+JPEG -> XRGB Bottom-Up ... Passed.
+JPEG -> XRGB Bottom-Up 1/2 ... Passed.
+
+JPEG -> ARGB Bottom-Up ... Passed.
+JPEG -> ARGB Bottom-Up 1/2 ... Passed.
+
+CMYK Top-Down  -> 4:1:1 Q100 ... Done.
+  Result in test_enc8_CMYK_TD_411_Q100.jpg
+JPEG -> CMYK Top-Down  ... Passed.
+JPEG -> CMYK Top-Down  1/2 ... Passed.
+
+CMYK Bottom-Up -> 4:1:1 Q100 ... Done.
+  Result in test_enc8_CMYK_BU_411_Q100.jpg
+JPEG -> CMYK Bottom-Up ... Passed.
+JPEG -> CMYK Bottom-Up 1/2 ... Passed.
+
+--------------------
+
+RGB Top-Down  -> 4:4:1 Q100 ... Done.
+  Result in test_enc8_RGB_TD_441_Q100.jpg
+JPEG -> RGB Top-Down  ... Passed.
+JPEG -> RGB Top-Down  1/2 ... Passed.
+
+RGB Bottom-Up -> 4:4:1 Q100 ... Done.
+  Result in test_enc8_RGB_BU_441_Q100.jpg
+JPEG -> RGB Bottom-Up ... Passed.
+JPEG -> RGB Bottom-Up 1/2 ... Passed.
+
+BGR Top-Down  -> 4:4:1 Q100 ... Done.
+  Result in test_enc8_BGR_TD_441_Q100.jpg
+JPEG -> BGR Top-Down  ... Passed.
+JPEG -> BGR Top-Down  1/2 ... Passed.
+
+BGR Bottom-Up -> 4:4:1 Q100 ... Done.
+  Result in test_enc8_BGR_BU_441_Q100.jpg
+JPEG -> BGR Bottom-Up ... Passed.
+JPEG -> BGR Bottom-Up 1/2 ... Passed.
+
+--------------------
+
+RGBX Top-Down  -> 4:4:1 Q100 ... Done.
+  Result in test_enc8_RGBX_TD_441_Q100.jpg
+JPEG -> RGBX Top-Down  ... Passed.
+JPEG -> RGBX Top-Down  1/2 ... Passed.
+
+JPEG -> RGBA Top-Down  ... Passed.
+JPEG -> RGBA Top-Down  1/2 ... Passed.
+
+RGBX Bottom-Up -> 4:4:1 Q100 ... Done.
+  Result in test_enc8_RGBX_BU_441_Q100.jpg
+JPEG -> RGBX Bottom-Up ... Passed.
+JPEG -> RGBX Bottom-Up 1/2 ... Passed.
+
+JPEG -> RGBA Bottom-Up ... Passed.
+JPEG -> RGBA Bottom-Up 1/2 ... Passed.
+
+BGRX Top-Down  -> 4:4:1 Q100 ... Done.
+  Result in test_enc8_BGRX_TD_441_Q100.jpg
+JPEG -> BGRX Top-Down  ... Passed.
+JPEG -> BGRX Top-Down  1/2 ... Passed.
+
+JPEG -> BGRA Top-Down  ... Passed.
+JPEG -> BGRA Top-Down  1/2 ... Passed.
+
+BGRX Bottom-Up -> 4:4:1 Q100 ... Done.
+  Result in test_enc8_BGRX_BU_441_Q100.jpg
+JPEG -> BGRX Bottom-Up ... Passed.
+JPEG -> BGRX Bottom-Up 1/2 ... Passed.
+
+JPEG -> BGRA Bottom-Up ... Passed.
+JPEG -> BGRA Bottom-Up 1/2 ... Passed.
+
+XBGR Top-Down  -> 4:4:1 Q100 ... Done.
+  Result in test_enc8_XBGR_TD_441_Q100.jpg
+JPEG -> XBGR Top-Down  ... Passed.
+JPEG -> XBGR Top-Down  1/2 ... Passed.
+
+JPEG -> ABGR Top-Down  ... Passed.
+JPEG -> ABGR Top-Down  1/2 ... Passed.
+
+XBGR Bottom-Up -> 4:4:1 Q100 ... Done.
+  Result in test_enc8_XBGR_BU_441_Q100.jpg
+JPEG -> XBGR Bottom-Up ... Passed.
+JPEG -> XBGR Bottom-Up 1/2 ... Passed.
+
+JPEG -> ABGR Bottom-Up ... Passed.
+JPEG -> ABGR Bottom-Up 1/2 ... Passed.
+
+XRGB Top-Down  -> 4:4:1 Q100 ... Done.
+  Result in test_enc8_XRGB_TD_441_Q100.jpg
+JPEG -> XRGB Top-Down  ... Passed.
+JPEG -> XRGB Top-Down  1/2 ... Passed.
+
+JPEG -> ARGB Top-Down  ... Passed.
+JPEG -> ARGB Top-Down  1/2 ... Passed.
+
+XRGB Bottom-Up -> 4:4:1 Q100 ... Done.
+  Result in test_enc8_XRGB_BU_441_Q100.jpg
+JPEG -> XRGB Bottom-Up ... Passed.
+JPEG -> XRGB Bottom-Up 1/2 ... Passed.
+
+JPEG -> ARGB Bottom-Up ... Passed.
+JPEG -> ARGB Bottom-Up 1/2 ... Passed.
+
+CMYK Top-Down  -> 4:4:1 Q100 ... Done.
+  Result in test_enc8_CMYK_TD_441_Q100.jpg
+JPEG -> CMYK Top-Down  ... Passed.
+JPEG -> CMYK Top-Down  1/2 ... Passed.
+
+CMYK Bottom-Up -> 4:4:1 Q100 ... Done.
+  Result in test_enc8_CMYK_BU_441_Q100.jpg
+JPEG -> CMYK Bottom-Up ... Passed.
+JPEG -> CMYK Bottom-Up 1/2 ... Passed.
+
+--------------------
+
+RGB Top-Down  -> 4:1:0 Q100 ... Done.
+  Result in test_enc8_RGB_TD_410_Q100.jpg
+
+RGB Bottom-Up -> 4:1:0 Q100 ... Done.
+  Result in test_enc8_RGB_BU_410_Q100.jpg
+
+BGR Top-Down  -> 4:1:0 Q100 ... Done.
+  Result in test_enc8_BGR_TD_410_Q100.jpg
+
+BGR Bottom-Up -> 4:1:0 Q100 ... Done.
+  Result in test_enc8_BGR_BU_410_Q100.jpg
+
+--------------------
+
+RGBX Top-Down  -> 4:1:0 Q100 ... Done.
+  Result in test_enc8_RGBX_TD_410_Q100.jpg
+
+
+RGBX Bottom-Up -> 4:1:0 Q100 ... Done.
+  Result in test_enc8_RGBX_BU_410_Q100.jpg
+
+
+BGRX Top-Down  -> 4:1:0 Q100 ... Done.
+  Result in test_enc8_BGRX_TD_410_Q100.jpg
+
+
+BGRX Bottom-Up -> 4:1:0 Q100 ... Done.
+  Result in test_enc8_BGRX_BU_410_Q100.jpg
+
+
+XBGR Top-Down  -> 4:1:0 Q100 ... Done.
+  Result in test_enc8_XBGR_TD_410_Q100.jpg
+
+
+XBGR Bottom-Up -> 4:1:0 Q100 ... Done.
+  Result in test_enc8_XBGR_BU_410_Q100.jpg
+
+
+XRGB Top-Down  -> 4:1:0 Q100 ... Done.
+  Result in test_enc8_XRGB_TD_410_Q100.jpg
+
+
+XRGB Bottom-Up -> 4:1:0 Q100 ... Done.
+  Result in test_enc8_XRGB_BU_410_Q100.jpg
+
+
+--------------------
+
+RGB Top-Down  -> 2:4 Q100 ... Done.
+  Result in test_enc8_RGB_TD_24_Q100.jpg
+
+RGB Bottom-Up -> 2:4 Q100 ... Done.
+  Result in test_enc8_RGB_BU_24_Q100.jpg
+
+BGR Top-Down  -> 2:4 Q100 ... Done.
+  Result in test_enc8_BGR_TD_24_Q100.jpg
+
+BGR Bottom-Up -> 2:4 Q100 ... Done.
+  Result in test_enc8_BGR_BU_24_Q100.jpg
+
+--------------------
+
+RGBX Top-Down  -> 2:4 Q100 ... Done.
+  Result in test_enc8_RGBX_TD_24_Q100.jpg
+
+
+RGBX Bottom-Up -> 2:4 Q100 ... Done.
+  Result in test_enc8_RGBX_BU_24_Q100.jpg
+
+
+BGRX Top-Down  -> 2:4 Q100 ... Done.
+  Result in test_enc8_BGRX_TD_24_Q100.jpg
+
+
+BGRX Bottom-Up -> 2:4 Q100 ... Done.
+  Result in test_enc8_BGRX_BU_24_Q100.jpg
+
+
+XBGR Top-Down  -> 2:4 Q100 ... Done.
+  Result in test_enc8_XBGR_TD_24_Q100.jpg
+
+
+XBGR Bottom-Up -> 2:4 Q100 ... Done.
+  Result in test_enc8_XBGR_BU_24_Q100.jpg
+
+
+XRGB Top-Down  -> 2:4 Q100 ... Done.
+  Result in test_enc8_XRGB_TD_24_Q100.jpg
+
+
+XRGB Bottom-Up -> 2:4 Q100 ... Done.
+  Result in test_enc8_XRGB_BU_24_Q100.jpg
+
+
+--------------------
+
+Grayscale Top-Down  -> GRAY Q100 ... Done.
+  Result in test_enc8_Grayscale_TD_GRAY_Q100.jpg
+JPEG -> Grayscale Top-Down  2/1 ... Passed.
+JPEG -> Grayscale Top-Down  15/8 ... Passed.
+JPEG -> Grayscale Top-Down  7/4 ... Passed.
+JPEG -> Grayscale Top-Down  13/8 ... Passed.
+JPEG -> Grayscale Top-Down  3/2 ... Passed.
+JPEG -> Grayscale Top-Down  11/8 ... Passed.
+JPEG -> Grayscale Top-Down  5/4 ... Passed.
+JPEG -> Grayscale Top-Down  9/8 ... Passed.
+JPEG -> Grayscale Top-Down  ... Passed.
+JPEG -> Grayscale Top-Down  7/8 ... Passed.
+JPEG -> Grayscale Top-Down  3/4 ... Passed.
+JPEG -> Grayscale Top-Down  5/8 ... Passed.
+JPEG -> Grayscale Top-Down  1/2 ... Passed.
+JPEG -> Grayscale Top-Down  3/8 ... Passed.
+JPEG -> Grayscale Top-Down  1/4 ... Passed.
+JPEG -> Grayscale Top-Down  1/8 ... Passed.
+
+Grayscale Bottom-Up -> GRAY Q100 ... Done.
+  Result in test_enc8_Grayscale_BU_GRAY_Q100.jpg
+JPEG -> Grayscale Bottom-Up 2/1 ... Passed.
+JPEG -> Grayscale Bottom-Up 15/8 ... Passed.
+JPEG -> Grayscale Bottom-Up 7/4 ... Passed.
+JPEG -> Grayscale Bottom-Up 13/8 ... Passed.
+JPEG -> Grayscale Bottom-Up 3/2 ... Passed.
+JPEG -> Grayscale Bottom-Up 11/8 ... Passed.
+JPEG -> Grayscale Bottom-Up 5/4 ... Passed.
+JPEG -> Grayscale Bottom-Up 9/8 ... Passed.
+JPEG -> Grayscale Bottom-Up ... Passed.
+JPEG -> Grayscale Bottom-Up 7/8 ... Passed.
+JPEG -> Grayscale Bottom-Up 3/4 ... Passed.
+JPEG -> Grayscale Bottom-Up 5/8 ... Passed.
+JPEG -> Grayscale Bottom-Up 1/2 ... Passed.
+JPEG -> Grayscale Bottom-Up 3/8 ... Passed.
+JPEG -> Grayscale Bottom-Up 1/4 ... Passed.
+JPEG -> Grayscale Bottom-Up 1/8 ... Passed.
+
+--------------------
+
+RGB Top-Down  -> GRAY Q100 ... Done.
+  Result in test_enc8_RGB_TD_GRAY_Q100.jpg
+JPEG -> RGB Top-Down  2/1 ... Passed.
+JPEG -> RGB Top-Down  15/8 ... Passed.
+JPEG -> RGB Top-Down  7/4 ... Passed.
+JPEG -> RGB Top-Down  13/8 ... Passed.
+JPEG -> RGB Top-Down  3/2 ... Passed.
+JPEG -> RGB Top-Down  11/8 ... Passed.
+JPEG -> RGB Top-Down  5/4 ... Passed.
+JPEG -> RGB Top-Down  9/8 ... Passed.
+JPEG -> RGB Top-Down  ... Passed.
+JPEG -> RGB Top-Down  7/8 ... Passed.
+JPEG -> RGB Top-Down  3/4 ... Passed.
+JPEG -> RGB Top-Down  5/8 ... Passed.
+JPEG -> RGB Top-Down  1/2 ... Passed.
+JPEG -> RGB Top-Down  3/8 ... Passed.
+JPEG -> RGB Top-Down  1/4 ... Passed.
+JPEG -> RGB Top-Down  1/8 ... Passed.
+
+RGB Bottom-Up -> GRAY Q100 ... Done.
+  Result in test_enc8_RGB_BU_GRAY_Q100.jpg
+JPEG -> RGB Bottom-Up 2/1 ... Passed.
+JPEG -> RGB Bottom-Up 15/8 ... Passed.
+JPEG -> RGB Bottom-Up 7/4 ... Passed.
+JPEG -> RGB Bottom-Up 13/8 ... Passed.
+JPEG -> RGB Bottom-Up 3/2 ... Passed.
+JPEG -> RGB Bottom-Up 11/8 ... Passed.
+JPEG -> RGB Bottom-Up 5/4 ... Passed.
+JPEG -> RGB Bottom-Up 9/8 ... Passed.
+JPEG -> RGB Bottom-Up ... Passed.
+JPEG -> RGB Bottom-Up 7/8 ... Passed.
+JPEG -> RGB Bottom-Up 3/4 ... Passed.
+JPEG -> RGB Bottom-Up 5/8 ... Passed.
+JPEG -> RGB Bottom-Up 1/2 ... Passed.
+JPEG -> RGB Bottom-Up 3/8 ... Passed.
+JPEG -> RGB Bottom-Up 1/4 ... Passed.
+JPEG -> RGB Bottom-Up 1/8 ... Passed.
+
+BGR Top-Down  -> GRAY Q100 ... Done.
+  Result in test_enc8_BGR_TD_GRAY_Q100.jpg
+JPEG -> BGR Top-Down  2/1 ... Passed.
+JPEG -> BGR Top-Down  15/8 ... Passed.
+JPEG -> BGR Top-Down  7/4 ... Passed.
+JPEG -> BGR Top-Down  13/8 ... Passed.
+JPEG -> BGR Top-Down  3/2 ... Passed.
+JPEG -> BGR Top-Down  11/8 ... Passed.
+JPEG -> BGR Top-Down  5/4 ... Passed.
+JPEG -> BGR Top-Down  9/8 ... Passed.
+JPEG -> BGR Top-Down  ... Passed.
+JPEG -> BGR Top-Down  7/8 ... Passed.
+JPEG -> BGR Top-Down  3/4 ... Passed.
+JPEG -> BGR Top-Down  5/8 ... Passed.
+JPEG -> BGR Top-Down  1/2 ... Passed.
+JPEG -> BGR Top-Down  3/8 ... Passed.
+JPEG -> BGR Top-Down  1/4 ... Passed.
+JPEG -> BGR Top-Down  1/8 ... Passed.
+
+BGR Bottom-Up -> GRAY Q100 ... Done.
+  Result in test_enc8_BGR_BU_GRAY_Q100.jpg
+JPEG -> BGR Bottom-Up 2/1 ... Passed.
+JPEG -> BGR Bottom-Up 15/8 ... Passed.
+JPEG -> BGR Bottom-Up 7/4 ... Passed.
+JPEG -> BGR Bottom-Up 13/8 ... Passed.
+JPEG -> BGR Bottom-Up 3/2 ... Passed.
+JPEG -> BGR Bottom-Up 11/8 ... Passed.
+JPEG -> BGR Bottom-Up 5/4 ... Passed.
+JPEG -> BGR Bottom-Up 9/8 ... Passed.
+JPEG -> BGR Bottom-Up ... Passed.
+JPEG -> BGR Bottom-Up 7/8 ... Passed.
+JPEG -> BGR Bottom-Up 3/4 ... Passed.
+JPEG -> BGR Bottom-Up 5/8 ... Passed.
+JPEG -> BGR Bottom-Up 1/2 ... Passed.
+JPEG -> BGR Bottom-Up 3/8 ... Passed.
+JPEG -> BGR Bottom-Up 1/4 ... Passed.
+JPEG -> BGR Bottom-Up 1/8 ... Passed.
+
+--------------------
+
+RGBX Top-Down  -> GRAY Q100 ... Done.
+  Result in test_enc8_RGBX_TD_GRAY_Q100.jpg
+JPEG -> RGBX Top-Down  2/1 ... Passed.
+JPEG -> RGBX Top-Down  15/8 ... Passed.
+JPEG -> RGBX Top-Down  7/4 ... Passed.
+JPEG -> RGBX Top-Down  13/8 ... Passed.
+JPEG -> RGBX Top-Down  3/2 ... Passed.
+JPEG -> RGBX Top-Down  11/8 ... Passed.
+JPEG -> RGBX Top-Down  5/4 ... Passed.
+JPEG -> RGBX Top-Down  9/8 ... Passed.
+JPEG -> RGBX Top-Down  ... Passed.
+JPEG -> RGBX Top-Down  7/8 ... Passed.
+JPEG -> RGBX Top-Down  3/4 ... Passed.
+JPEG -> RGBX Top-Down  5/8 ... Passed.
+JPEG -> RGBX Top-Down  1/2 ... Passed.
+JPEG -> RGBX Top-Down  3/8 ... Passed.
+JPEG -> RGBX Top-Down  1/4 ... Passed.
+JPEG -> RGBX Top-Down  1/8 ... Passed.
+
+JPEG -> RGBA Top-Down  2/1 ... Passed.
+JPEG -> RGBA Top-Down  15/8 ... Passed.
+JPEG -> RGBA Top-Down  7/4 ... Passed.
+JPEG -> RGBA Top-Down  13/8 ... Passed.
+JPEG -> RGBA Top-Down  3/2 ... Passed.
+JPEG -> RGBA Top-Down  11/8 ... Passed.
+JPEG -> RGBA Top-Down  5/4 ... Passed.
+JPEG -> RGBA Top-Down  9/8 ... Passed.
+JPEG -> RGBA Top-Down  ... Passed.
+JPEG -> RGBA Top-Down  7/8 ... Passed.
+JPEG -> RGBA Top-Down  3/4 ... Passed.
+JPEG -> RGBA Top-Down  5/8 ... Passed.
+JPEG -> RGBA Top-Down  1/2 ... Passed.
+JPEG -> RGBA Top-Down  3/8 ... Passed.
+JPEG -> RGBA Top-Down  1/4 ... Passed.
+JPEG -> RGBA Top-Down  1/8 ... Passed.
+
+RGBX Bottom-Up -> GRAY Q100 ... Done.
+  Result in test_enc8_RGBX_BU_GRAY_Q100.jpg
+JPEG -> RGBX Bottom-Up 2/1 ... Passed.
+JPEG -> RGBX Bottom-Up 15/8 ... Passed.
+JPEG -> RGBX Bottom-Up 7/4 ... Passed.
+JPEG -> RGBX Bottom-Up 13/8 ... Passed.
+JPEG -> RGBX Bottom-Up 3/2 ... Passed.
+JPEG -> RGBX Bottom-Up 11/8 ... Passed.
+JPEG -> RGBX Bottom-Up 5/4 ... Passed.
+JPEG -> RGBX Bottom-Up 9/8 ... Passed.
+JPEG -> RGBX Bottom-Up ... Passed.
+JPEG -> RGBX Bottom-Up 7/8 ... Passed.
+JPEG -> RGBX Bottom-Up 3/4 ... Passed.
+JPEG -> RGBX Bottom-Up 5/8 ... Passed.
+JPEG -> RGBX Bottom-Up 1/2 ... Passed.
+JPEG -> RGBX Bottom-Up 3/8 ... Passed.
+JPEG -> RGBX Bottom-Up 1/4 ... Passed.
+JPEG -> RGBX Bottom-Up 1/8 ... Passed.
+
+JPEG -> RGBA Bottom-Up 2/1 ... Passed.
+JPEG -> RGBA Bottom-Up 15/8 ... Passed.
+JPEG -> RGBA Bottom-Up 7/4 ... Passed.
+JPEG -> RGBA Bottom-Up 13/8 ... Passed.
+JPEG -> RGBA Bottom-Up 3/2 ... Passed.
+JPEG -> RGBA Bottom-Up 11/8 ... Passed.
+JPEG -> RGBA Bottom-Up 5/4 ... Passed.
+JPEG -> RGBA Bottom-Up 9/8 ... Passed.
+JPEG -> RGBA Bottom-Up ... Passed.
+JPEG -> RGBA Bottom-Up 7/8 ... Passed.
+JPEG -> RGBA Bottom-Up 3/4 ... Passed.
+JPEG -> RGBA Bottom-Up 5/8 ... Passed.
+JPEG -> RGBA Bottom-Up 1/2 ... Passed.
+JPEG -> RGBA Bottom-Up 3/8 ... Passed.
+JPEG -> RGBA Bottom-Up 1/4 ... Passed.
+JPEG -> RGBA Bottom-Up 1/8 ... Passed.
+
+BGRX Top-Down  -> GRAY Q100 ... Done.
+  Result in test_enc8_BGRX_TD_GRAY_Q100.jpg
+JPEG -> BGRX Top-Down  2/1 ... Passed.
+JPEG -> BGRX Top-Down  15/8 ... Passed.
+JPEG -> BGRX Top-Down  7/4 ... Passed.
+JPEG -> BGRX Top-Down  13/8 ... Passed.
+JPEG -> BGRX Top-Down  3/2 ... Passed.
+JPEG -> BGRX Top-Down  11/8 ... Passed.
+JPEG -> BGRX Top-Down  5/4 ... Passed.
+JPEG -> BGRX Top-Down  9/8 ... Passed.
+JPEG -> BGRX Top-Down  ... Passed.
+JPEG -> BGRX Top-Down  7/8 ... Passed.
+JPEG -> BGRX Top-Down  3/4 ... Passed.
+JPEG -> BGRX Top-Down  5/8 ... Passed.
+JPEG -> BGRX Top-Down  1/2 ... Passed.
+JPEG -> BGRX Top-Down  3/8 ... Passed.
+JPEG -> BGRX Top-Down  1/4 ... Passed.
+JPEG -> BGRX Top-Down  1/8 ... Passed.
+
+JPEG -> BGRA Top-Down  2/1 ... Passed.
+JPEG -> BGRA Top-Down  15/8 ... Passed.
+JPEG -> BGRA Top-Down  7/4 ... Passed.
+JPEG -> BGRA Top-Down  13/8 ... Passed.
+JPEG -> BGRA Top-Down  3/2 ... Passed.
+JPEG -> BGRA Top-Down  11/8 ... Passed.
+JPEG -> BGRA Top-Down  5/4 ... Passed.
+JPEG -> BGRA Top-Down  9/8 ... Passed.
+JPEG -> BGRA Top-Down  ... Passed.
+JPEG -> BGRA Top-Down  7/8 ... Passed.
+JPEG -> BGRA Top-Down  3/4 ... Passed.
+JPEG -> BGRA Top-Down  5/8 ... Passed.
+JPEG -> BGRA Top-Down  1/2 ... Passed.
+JPEG -> BGRA Top-Down  3/8 ... Passed.
+JPEG -> BGRA Top-Down  1/4 ... Passed.
+JPEG -> BGRA Top-Down  1/8 ... Passed.
+
+BGRX Bottom-Up -> GRAY Q100 ... Done.
+  Result in test_enc8_BGRX_BU_GRAY_Q100.jpg
+JPEG -> BGRX Bottom-Up 2/1 ... Passed.
+JPEG -> BGRX Bottom-Up 15/8 ... Passed.
+JPEG -> BGRX Bottom-Up 7/4 ... Passed.
+JPEG -> BGRX Bottom-Up 13/8 ... Passed.
+JPEG -> BGRX Bottom-Up 3/2 ... Passed.
+JPEG -> BGRX Bottom-Up 11/8 ... Passed.
+JPEG -> BGRX Bottom-Up 5/4 ... Passed.
+JPEG -> BGRX Bottom-Up 9/8 ... Passed.
+JPEG -> BGRX Bottom-Up ... Passed.
+JPEG -> BGRX Bottom-Up 7/8 ... Passed.
+JPEG -> BGRX Bottom-Up 3/4 ... Passed.
+JPEG -> BGRX Bottom-Up 5/8 ... Passed.
+JPEG -> BGRX Bottom-Up 1/2 ... Passed.
+JPEG -> BGRX Bottom-Up 3/8 ... Passed.
+JPEG -> BGRX Bottom-Up 1/4 ... Passed.
+JPEG -> BGRX Bottom-Up 1/8 ... Passed.
+
+JPEG -> BGRA Bottom-Up 2/1 ... Passed.
+JPEG -> BGRA Bottom-Up 15/8 ... Passed.
+JPEG -> BGRA Bottom-Up 7/4 ... Passed.
+JPEG -> BGRA Bottom-Up 13/8 ... Passed.
+JPEG -> BGRA Bottom-Up 3/2 ... Passed.
+JPEG -> BGRA Bottom-Up 11/8 ... Passed.
+JPEG -> BGRA Bottom-Up 5/4 ... Passed.
+JPEG -> BGRA Bottom-Up 9/8 ... Passed.
+JPEG -> BGRA Bottom-Up ... Passed.
+JPEG -> BGRA Bottom-Up 7/8 ... Passed.
+JPEG -> BGRA Bottom-Up 3/4 ... Passed.
+JPEG -> BGRA Bottom-Up 5/8 ... Passed.
+JPEG -> BGRA Bottom-Up 1/2 ... Passed.
+JPEG -> BGRA Bottom-Up 3/8 ... Passed.
+JPEG -> BGRA Bottom-Up 1/4 ... Passed.
+JPEG -> BGRA Bottom-Up 1/8 ... Passed.
+
+XBGR Top-Down  -> GRAY Q100 ... Done.
+  Result in test_enc8_XBGR_TD_GRAY_Q100.jpg
+JPEG -> XBGR Top-Down  2/1 ... Passed.
+JPEG -> XBGR Top-Down  15/8 ... Passed.
+JPEG -> XBGR Top-Down  7/4 ... Passed.
+JPEG -> XBGR Top-Down  13/8 ... Passed.
+JPEG -> XBGR Top-Down  3/2 ... Passed.
+JPEG -> XBGR Top-Down  11/8 ... Passed.
+JPEG -> XBGR Top-Down  5/4 ... Passed.
+JPEG -> XBGR Top-Down  9/8 ... Passed.
+JPEG -> XBGR Top-Down  ... Passed.
+JPEG -> XBGR Top-Down  7/8 ... Passed.
+JPEG -> XBGR Top-Down  3/4 ... Passed.
+JPEG -> XBGR Top-Down  5/8 ... Passed.
+JPEG -> XBGR Top-Down  1/2 ... Passed.
+JPEG -> XBGR Top-Down  3/8 ... Passed.
+JPEG -> XBGR Top-Down  1/4 ... Passed.
+JPEG -> XBGR Top-Down  1/8 ... Passed.
+
+JPEG -> ABGR Top-Down  2/1 ... Passed.
+JPEG -> ABGR Top-Down  15/8 ... Passed.
+JPEG -> ABGR Top-Down  7/4 ... Passed.
+JPEG -> ABGR Top-Down  13/8 ... Passed.
+JPEG -> ABGR Top-Down  3/2 ... Passed.
+JPEG -> ABGR Top-Down  11/8 ... Passed.
+JPEG -> ABGR Top-Down  5/4 ... Passed.
+JPEG -> ABGR Top-Down  9/8 ... Passed.
+JPEG -> ABGR Top-Down  ... Passed.
+JPEG -> ABGR Top-Down  7/8 ... Passed.
+JPEG -> ABGR Top-Down  3/4 ... Passed.
+JPEG -> ABGR Top-Down  5/8 ... Passed.
+JPEG -> ABGR Top-Down  1/2 ... Passed.
+JPEG -> ABGR Top-Down  3/8 ... Passed.
+JPEG -> ABGR Top-Down  1/4 ... Passed.
+JPEG -> ABGR Top-Down  1/8 ... Passed.
+
+XBGR Bottom-Up -> GRAY Q100 ... Done.
+  Result in test_enc8_XBGR_BU_GRAY_Q100.jpg
+JPEG -> XBGR Bottom-Up 2/1 ... Passed.
+JPEG -> XBGR Bottom-Up 15/8 ... Passed.
+JPEG -> XBGR Bottom-Up 7/4 ... Passed.
+JPEG -> XBGR Bottom-Up 13/8 ... Passed.
+JPEG -> XBGR Bottom-Up 3/2 ... Passed.
+JPEG -> XBGR Bottom-Up 11/8 ... Passed.
+JPEG -> XBGR Bottom-Up 5/4 ... Passed.
+JPEG -> XBGR Bottom-Up 9/8 ... Passed.
+JPEG -> XBGR Bottom-Up ... Passed.
+JPEG -> XBGR Bottom-Up 7/8 ... Passed.
+JPEG -> XBGR Bottom-Up 3/4 ... Passed.
+JPEG -> XBGR Bottom-Up 5/8 ... Passed.
+JPEG -> XBGR Bottom-Up 1/2 ... Passed.
+JPEG -> XBGR Bottom-Up 3/8 ... Passed.
+JPEG -> XBGR Bottom-Up 1/4 ... Passed.
+JPEG -> XBGR Bottom-Up 1/8 ... Passed.
+
+JPEG -> ABGR Bottom-Up 2/1 ... Passed.
+JPEG -> ABGR Bottom-Up 15/8 ... Passed.
+JPEG -> ABGR Bottom-Up 7/4 ... Passed.
+JPEG -> ABGR Bottom-Up 13/8 ... Passed.
+JPEG -> ABGR Bottom-Up 3/2 ... Passed.
+JPEG -> ABGR Bottom-Up 11/8 ... Passed.
+JPEG -> ABGR Bottom-Up 5/4 ... Passed.
+JPEG -> ABGR Bottom-Up 9/8 ... Passed.
+JPEG -> ABGR Bottom-Up ... Passed.
+JPEG -> ABGR Bottom-Up 7/8 ... Passed.
+JPEG -> ABGR Bottom-Up 3/4 ... Passed.
+JPEG -> ABGR Bottom-Up 5/8 ... Passed.
+JPEG -> ABGR Bottom-Up 1/2 ... Passed.
+JPEG -> ABGR Bottom-Up 3/8 ... Passed.
+JPEG -> ABGR Bottom-Up 1/4 ... Passed.
+JPEG -> ABGR Bottom-Up 1/8 ... Passed.
+
+XRGB Top-Down  -> GRAY Q100 ... Done.
+  Result in test_enc8_XRGB_TD_GRAY_Q100.jpg
+JPEG -> XRGB Top-Down  2/1 ... Passed.
+JPEG -> XRGB Top-Down  15/8 ... Passed.
+JPEG -> XRGB Top-Down  7/4 ... Passed.
+JPEG -> XRGB Top-Down  13/8 ... Passed.
+JPEG -> XRGB Top-Down  3/2 ... Passed.
+JPEG -> XRGB Top-Down  11/8 ... Passed.
+JPEG -> XRGB Top-Down  5/4 ... Passed.
+JPEG -> XRGB Top-Down  9/8 ... Passed.
+JPEG -> XRGB Top-Down  ... Passed.
+JPEG -> XRGB Top-Down  7/8 ... Passed.
+JPEG -> XRGB Top-Down  3/4 ... Passed.
+JPEG -> XRGB Top-Down  5/8 ... Passed.
+JPEG -> XRGB Top-Down  1/2 ... Passed.
+JPEG -> XRGB Top-Down  3/8 ... Passed.
+JPEG -> XRGB Top-Down  1/4 ... Passed.
+JPEG -> XRGB Top-Down  1/8 ... Passed.
+
+JPEG -> ARGB Top-Down  2/1 ... Passed.
+JPEG -> ARGB Top-Down  15/8 ... Passed.
+JPEG -> ARGB Top-Down  7/4 ... Passed.
+JPEG -> ARGB Top-Down  13/8 ... Passed.
+JPEG -> ARGB Top-Down  3/2 ... Passed.
+JPEG -> ARGB Top-Down  11/8 ... Passed.
+JPEG -> ARGB Top-Down  5/4 ... Passed.
+JPEG -> ARGB Top-Down  9/8 ... Passed.
+JPEG -> ARGB Top-Down  ... Passed.
+JPEG -> ARGB Top-Down  7/8 ... Passed.
+JPEG -> ARGB Top-Down  3/4 ... Passed.
+JPEG -> ARGB Top-Down  5/8 ... Passed.
+JPEG -> ARGB Top-Down  1/2 ... Passed.
+JPEG -> ARGB Top-Down  3/8 ... Passed.
+JPEG -> ARGB Top-Down  1/4 ... Passed.
+JPEG -> ARGB Top-Down  1/8 ... Passed.
+
+XRGB Bottom-Up -> GRAY Q100 ... Done.
+  Result in test_enc8_XRGB_BU_GRAY_Q100.jpg
+JPEG -> XRGB Bottom-Up 2/1 ... Passed.
+JPEG -> XRGB Bottom-Up 15/8 ... Passed.
+JPEG -> XRGB Bottom-Up 7/4 ... Passed.
+JPEG -> XRGB Bottom-Up 13/8 ... Passed.
+JPEG -> XRGB Bottom-Up 3/2 ... Passed.
+JPEG -> XRGB Bottom-Up 11/8 ... Passed.
+JPEG -> XRGB Bottom-Up 5/4 ... Passed.
+JPEG -> XRGB Bottom-Up 9/8 ... Passed.
+JPEG -> XRGB Bottom-Up ... Passed.
+JPEG -> XRGB Bottom-Up 7/8 ... Passed.
+JPEG -> XRGB Bottom-Up 3/4 ... Passed.
+JPEG -> XRGB Bottom-Up 5/8 ... Passed.
+JPEG -> XRGB Bottom-Up 1/2 ... Passed.
+JPEG -> XRGB Bottom-Up 3/8 ... Passed.
+JPEG -> XRGB Bottom-Up 1/4 ... Passed.
+JPEG -> XRGB Bottom-Up 1/8 ... Passed.
+
+JPEG -> ARGB Bottom-Up 2/1 ... Passed.
+JPEG -> ARGB Bottom-Up 15/8 ... Passed.
+JPEG -> ARGB Bottom-Up 7/4 ... Passed.
+JPEG -> ARGB Bottom-Up 13/8 ... Passed.
+JPEG -> ARGB Bottom-Up 3/2 ... Passed.
+JPEG -> ARGB Bottom-Up 11/8 ... Passed.
+JPEG -> ARGB Bottom-Up 5/4 ... Passed.
+JPEG -> ARGB Bottom-Up 9/8 ... Passed.
+JPEG -> ARGB Bottom-Up ... Passed.
+JPEG -> ARGB Bottom-Up 7/8 ... Passed.
+JPEG -> ARGB Bottom-Up 3/4 ... Passed.
+JPEG -> ARGB Bottom-Up 5/8 ... Passed.
+JPEG -> ARGB Bottom-Up 1/2 ... Passed.
+JPEG -> ARGB Bottom-Up 3/8 ... Passed.
+JPEG -> ARGB Bottom-Up 1/4 ... Passed.
+JPEG -> ARGB Bottom-Up 1/8 ... Passed.
+
+--------------------
+
+Buffer size regression test
+0001 x 01000001 x 02000001 x 03000001 x 04000001 x 05000001 x 06000001 x 07000001 x 08000001 x 09000001 x 10000001 x 11000001 x 12000001 x 13000001 x 14000001 x 15000001 x 16000001 x 17000001 x 18000001 x 19000001 x 20000001 x 01000001 x 02000001 x 03000001 x 04000001 x 05000001 x 06000001 x 07000001 x 08000001 x 09000001 x 10000001 x 11000001 x 12000001 x 13000001 x 14000001 x 15000001 x 16000001 x 17000001 x 18000001 x 19000001 x 20000001 x 01000001 x 02000001 x 03000001 x 04000001 x 05000001 x 06000001 x 07000001 x 08000001 x 09000001 x 10000001 x 11000001 x 12000001 x 13000001 x 14000001 x 15000001 x 16000001 x 17000001 x 18000001 x 19000001 x 20000001 x 01000001 x 02000001 x 03000001 x 04000001 x 05000001 x 06000001 x 07000001 x 08000001 x 09000001 x 10000001 x 11000001 x 12000001 x 13000001 x 14000001 x 15000001 x 16000001 x 17000001 x 18000001 x 19000001 x 20000001 x 01000001 x 02000001 x 03000001 x 04000001 x 05000001 x 06000001 x 07000001 x 08000001 x 09000001 x 10000001 x 11000001 x 12000001 x 13000001 x 14000001 x 15000001 x 16000001 x 17000001 x 18000001 x 19000001 x 20000001 x 01000001 x 02000001 x 03000001 x 04000001 x 05000001 x 06000001 x 07000001 x 08000001 x 09000001 x 10000001 x 11000001 x 12000001 x 13000001 x 14000001 x 15000001 x 16000001 x 17000001 x 18000001 x 19000001 x 20000001 x 01000001 x 02000001 x 03000001 x 04000001 x 05000001 x 06000001 x 07000001 x 08000001 x 09000001 x 10000001 x 11000001 x 12000001 x 13000001 x 14000001 x 15000001 x 16000001 x 17000001 x 18000001 x 19000001 x 20000001 x 01000001 x 02000001 x 03000001 x 04000001 x 05000001 x 06000001 x 07000001 x 08000001 x 09000001 x 10000001 x 11000001 x 12000001 x 13000001 x 14000001 x 15000001 x 16000001 x 17000001 x 18000001 x 19000001 x 20000001 x 01000001 x 02000001 x 03000001 x 04000001 x 05000001 x 06000001 x 07000001 x 08000001 x 09000001 x 10000001 x 11000001 x 12000001 x 13000001 x 14000001 x 15000001 x 16000001 x 17000001 x 18000001 x 19000001 x 2000Done.      
+<end of output>
+Test time =   3.59 sec
+----------------------------------------------------------
+Test Passed.
+"tjunittest-static" end time: Nov 24 17:40 CST
+"tjunittest-static" time elapsed: 00:00:03
+----------------------------------------------------------
+
+End testing: Nov 24 17:40 CST

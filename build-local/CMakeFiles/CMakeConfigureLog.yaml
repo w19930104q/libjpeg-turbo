@@ -1,0 +1,1388 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/.local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 6.18.33.1-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/.local/bin/ninja-build"
+    found: "/home/liiing/.local/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/liiing/toolchain/gcc.sh 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/liiing/feedback/uid37606/build-local/CMakeFiles/4.4.5/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/home/liiing/toolchain/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/toolchain/ar"
+      - "/home/liiing/.local/bin/ar"
+      - "/usr/local/sbin/ar"
+      - "/usr/local/bin/ar"
+      - "/usr/sbin/ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/home/liiing/toolchain/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/toolchain/ranlib"
+      - "/home/liiing/.local/bin/ranlib"
+      - "/usr/local/sbin/ranlib"
+      - "/usr/local/bin/ranlib"
+      - "/usr/sbin/ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/home/liiing/toolchain/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/toolchain/strip"
+      - "/home/liiing/.local/bin/strip"
+      - "/usr/local/sbin/strip"
+      - "/usr/local/bin/strip"
+      - "/usr/sbin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/home/liiing/toolchain/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/toolchain/ld"
+      - "/home/liiing/.local/bin/ld"
+      - "/usr/local/sbin/ld"
+      - "/usr/local/bin/ld"
+      - "/usr/sbin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/home/liiing/toolchain/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/toolchain/nm"
+      - "/home/liiing/.local/bin/nm"
+      - "/usr/local/sbin/nm"
+      - "/usr/local/bin/nm"
+      - "/usr/sbin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/home/liiing/toolchain/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/toolchain/objdump"
+      - "/home/liiing/.local/bin/objdump"
+      - "/usr/local/sbin/objdump"
+      - "/usr/local/bin/objdump"
+      - "/usr/sbin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/home/liiing/toolchain/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/toolchain/objcopy"
+      - "/home/liiing/.local/bin/objcopy"
+      - "/usr/local/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/usr/sbin/objcopy"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/home/liiing/toolchain/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/toolchain/readelf"
+      - "/home/liiing/.local/bin/readelf"
+      - "/usr/local/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/usr/sbin/readelf"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/home/liiing/toolchain/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/toolchain/dlltool"
+      - "/home/liiing/.local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/home/liiing/toolchain/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/toolchain/addr2line"
+      - "/home/liiing/.local/bin/addr2line"
+      - "/usr/local/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/usr/sbin/addr2line"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/home/liiing/toolchain/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/toolchain/tapi"
+      - "/home/liiing/.local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/home/liiing/toolchain/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/toolchain/gcc-ar-15.2"
+      - "/home/liiing/.local/bin/gcc-ar-15.2"
+      - "/usr/local/sbin/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/usr/sbin/gcc-ar-15.2"
+      - "/usr/bin/gcc-ar-15.2"
+      - "/sbin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
+      - "/home/liiing/toolchain/gcc-ar-15"
+      - "/home/liiing/.local/bin/gcc-ar-15"
+      - "/usr/local/sbin/gcc-ar-15"
+      - "/usr/local/bin/gcc-ar-15"
+      - "/usr/sbin/gcc-ar-15"
+      - "/usr/bin/gcc-ar-15"
+      - "/sbin/gcc-ar-15"
+      - "/bin/gcc-ar-15"
+      - "/home/liiing/toolchain/gcc-ar15"
+      - "/home/liiing/.local/bin/gcc-ar15"
+      - "/usr/local/sbin/gcc-ar15"
+      - "/usr/local/bin/gcc-ar15"
+      - "/usr/sbin/gcc-ar15"
+      - "/usr/bin/gcc-ar15"
+      - "/sbin/gcc-ar15"
+      - "/bin/gcc-ar15"
+      - "/home/liiing/toolchain/gcc-ar"
+      - "/home/liiing/.local/bin/gcc-ar"
+      - "/usr/local/sbin/gcc-ar"
+      - "/usr/local/bin/gcc-ar"
+      - "/usr/sbin/gcc-ar"
+      - "/usr/bin/gcc-ar"
+      - "/sbin/gcc-ar"
+      - "/bin/gcc-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/home/liiing/toolchain/"
+      - "/home/liiing/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/liiing/toolchain/gcc-ranlib-15.2"
+      - "/home/liiing/.local/bin/gcc-ranlib-15.2"
+      - "/usr/local/sbin/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/usr/sbin/gcc-ranlib-15.2"
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/sbin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
+      - "/home/liiing/toolchain/gcc-ranlib-15"
+      - "/home/liiing/.local/bin/gcc-ranlib-15"
+      - "/usr/local/sbin/gcc-ranlib-15"
+      - "/usr/local/bin/gcc-ranlib-15"
+      - "/usr/sbin/gcc-ranlib-15"
+      - "/usr/bin/gcc-ranlib-15"
+      - "/sbin/gcc-ranlib-15"
+      - "/bin/gcc-ranlib-15"
+      - "/home/liiing/toolchain/gcc-ranlib15"
+      - "/home/liiing/.local/bin/gcc-ranlib15"
+      - "/usr/local/sbin/gcc-ranlib15"
+      - "/usr/local/bin/gcc-ranlib15"
+      - "/usr/sbin/gcc-ranlib15"
+      - "/usr/bin/gcc-ranlib15"
+      - "/sbin/gcc-ranlib15"
+      - "/bin/gcc-ranlib15"
+      - "/home/liiing/toolchain/gcc-ranlib"
+      - "/home/liiing/.local/bin/gcc-ranlib"
+      - "/usr/local/sbin/gcc-ranlib"
+      - "/usr/local/bin/gcc-ranlib"
+      - "/usr/sbin/gcc-ranlib"
+      - "/usr/bin/gcc-ranlib"
+      - "/sbin/gcc-ranlib"
+      - "/bin/gcc-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/liiing/.local/bin"
+        - "/home/liiing/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-aT2D1X"
+      binary: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-aT2D1X"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-aT2D1X'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_88d70
+        [1/2] /home/liiing/toolchain/gcc.sh   -v -o CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o -c /home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/home/liiing/localgcc/usr/bin/x86_64-linux-gnu-gcc-15
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
+        COLLECT_GCC_OPTIONS='--sysroot=/home/liiing/localgcc' '-B' '/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15' '-B' '/home/liiing/localgcc/usr/x86_64-linux-gnu/bin' '-v' '-o' 'CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_88d70.dir/'
+         /home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/ -isysroot /home/liiing/localgcc /home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_88d70.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /home/liiing/tmp/ccJp5tTJ.s
+        GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu/x86_64-linux-gnu"
+        ignoring nonexistent directory "/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/include-fixed"
+        ignoring nonexistent directory "/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"
+        ignoring duplicate directory "/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/include"
+        ignoring nonexistent directory "/home/liiing/localgcc/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/home/liiing/localgcc/usr/local/include"
+        ignoring nonexistent directory "/home/liiing/localgcc/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/home/liiing/localgcc/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/15/include-fixed"
+        ignoring nonexistent directory "/home/liiing/localgcc/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"
+        ignoring duplicate directory "/home/liiing/localgcc/usr/include/x86_64-linux-gnu"
+        ignoring duplicate directory "/home/liiing/localgcc/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/liiing/localgcc/usr/include
+         /home/liiing/localgcc/usr/include/x86_64-linux-gnu
+         .
+         /home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/include
+        End of search list.
+        Compiler executable checksum: edd70396dcc669433a92073f97309866
+        COLLECT_GCC_OPTIONS='--sysroot=/home/liiing/localgcc' '-B' '/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15' '-B' '/home/liiing/localgcc/usr/x86_64-linux-gnu/bin' '-v' '-o' 'CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_88d70.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o /home/liiing/tmp/ccJp5tTJ.s
+        GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
+        COMPILER_PATH=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../libexec/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../libexec/gcc/x86_64-linux-gnu/:/home/liiing/localgcc/usr/bin/../libexec/gcc/
+        LIBRARY_PATH=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/:/home/liiing/localgcc/usr/bin/../lib/gcc/:/home/liiing/localgcc/usr/x86_64-linux-gnu/../lib/:/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/:/home/liiing/localgcc/usr/lib/../lib/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/:/home/liiing/localgcc/usr/lib/../lib/:/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/x86_64-linux-gnu/:/home/liiing/localgcc/usr/lib/:./:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../:/home/liiing/localgcc/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/liiing/localgcc' '-B' '/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15' '-B' '/home/liiing/localgcc/usr/x86_64-linux-gnu/bin' '-v' '-o' 'CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /home/liiing/toolchain/gcc.sh  -v -Wl,-v CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o -o cmTC_88d70   && :
+        Using built-in specs.
+        COLLECT_GCC=/home/liiing/localgcc/usr/bin/x86_64-linux-gnu-gcc-15
+        COLLECT_LTO_WRAPPER=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
+        COMPILER_PATH=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../libexec/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../libexec/gcc/x86_64-linux-gnu/:/home/liiing/localgcc/usr/bin/../libexec/gcc/
+        LIBRARY_PATH=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/:/home/liiing/localgcc/usr/bin/../lib/gcc/:/home/liiing/localgcc/usr/x86_64-linux-gnu/../lib/:/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/:/home/liiing/localgcc/usr/lib/../lib/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/:/home/liiing/localgcc/usr/lib/../lib/:/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/x86_64-linux-gnu/:/home/liiing/localgcc/usr/lib/:./:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../:/home/liiing/localgcc/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/liiing/localgcc' '-B' '/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15' '-B' '/home/liiing/localgcc/usr/x86_64-linux-gnu/bin' '-v' '-o' 'cmTC_88d70' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_88d70.'
+         /home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/home/liiing/tmp/ccrfK64z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/liiing/localgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_88d70 /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/Scrt1.o /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crti.o /home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu -L/home/liiing/localgcc/usr/bin/../lib/gcc -L/home/liiing/localgcc/usr/x86_64-linux-gnu/../lib -L/home/liiing/localgcc/usr/lib/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib/../lib -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/home/liiing/localgcc/usr/lib/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib/../lib -L/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib -L. -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../.. -L/home/liiing/localgcc/usr/lib -v CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtendS.o /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crtn.o
+        collect2 version 15.2.0
+        /usr/bin/ld -plugin /home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/home/liiing/tmp/ccrfK64z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/liiing/localgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_88d70 /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/Scrt1.o /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crti.o /home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu -L/home/liiing/localgcc/usr/bin/../lib/gcc -L/home/liiing/localgcc/usr/x86_64-linux-gnu/../lib -L/home/liiing/localgcc/usr/lib/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib/../lib -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/home/liiing/localgcc/usr/lib/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib/../lib -L/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib -L. -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../.. -L/home/liiing/localgcc/usr/lib -v CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtendS.o /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.46
+        COLLECT_GCC_OPTIONS='--sysroot=/home/liiing/localgcc' '-B' '/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15' '-B' '/home/liiing/localgcc/usr/x86_64-linux-gnu/bin' '-v' '-o' 'cmTC_88d70' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_88d70.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/liiing/localgcc/usr/include]
+          add: [/home/liiing/localgcc/usr/include/x86_64-linux-gnu]
+          add: [.]
+          add: [/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/include]
+        end of search list found
+        collapse include dir [/home/liiing/localgcc/usr/include] ==> [/home/liiing/localgcc/usr/include]
+        collapse include dir [/home/liiing/localgcc/usr/include/x86_64-linux-gnu] ==> [/home/liiing/localgcc/usr/include/x86_64-linux-gnu]
+        skipping relative include dir [.]
+        collapse include dir [/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/include] ==> [/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/include]
+        implicit include dirs: [/home/liiing/localgcc/usr/include;/home/liiing/localgcc/usr/include/x86_64-linux-gnu;/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-aT2D1X']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_88d70]
+        ignore line: [[1/2] /home/liiing/toolchain/gcc.sh   -v -o CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o -c /home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/liiing/localgcc/usr/bin/x86_64-linux-gnu-gcc-15]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/liiing/localgcc' '-B' '/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15' '-B' '/home/liiing/localgcc/usr/x86_64-linux-gnu/bin' '-v' '-o' 'CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_88d70.dir/']
+        ignore line: [ /home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/cc1 -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/ -isysroot /home/liiing/localgcc /home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_88d70.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /home/liiing/tmp/ccJp5tTJ.s]
+        ignore line: [GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/include"]
+        ignore line: [ignoring nonexistent directory "/home/liiing/localgcc/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/home/liiing/localgcc/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/home/liiing/localgcc/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/15/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/home/liiing/localgcc/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/15/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/liiing/localgcc/usr/bin/../lib/gcc/../../lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/liiing/localgcc/usr/include/x86_64-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/liiing/localgcc/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/liiing/localgcc/usr/include]
+        ignore line: [ /home/liiing/localgcc/usr/include/x86_64-linux-gnu]
+        ignore line: [ .]
+        ignore line: [ /home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: edd70396dcc669433a92073f97309866]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/liiing/localgcc' '-B' '/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15' '-B' '/home/liiing/localgcc/usr/x86_64-linux-gnu/bin' '-v' '-o' 'CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_88d70.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o /home/liiing/tmp/ccJp5tTJ.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
+        ignore line: [COMPILER_PATH=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../libexec/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../libexec/gcc/x86_64-linux-gnu/:/home/liiing/localgcc/usr/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/:/home/liiing/localgcc/usr/bin/../lib/gcc/:/home/liiing/localgcc/usr/x86_64-linux-gnu/../lib/:/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/:/home/liiing/localgcc/usr/lib/../lib/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/:/home/liiing/localgcc/usr/lib/../lib/:/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/x86_64-linux-gnu/:/home/liiing/localgcc/usr/lib/:./:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../:/home/liiing/localgcc/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/liiing/localgcc' '-B' '/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15' '-B' '/home/liiing/localgcc/usr/x86_64-linux-gnu/bin' '-v' '-o' 'CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /home/liiing/toolchain/gcc.sh  -v -Wl -v CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o -o cmTC_88d70   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/liiing/localgcc/usr/bin/x86_64-linux-gnu-gcc-15]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-15-j35TAX/gcc-15-15.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
+        ignore line: [COMPILER_PATH=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../libexec/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../libexec/gcc/x86_64-linux-gnu/:/home/liiing/localgcc/usr/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/:/home/liiing/localgcc/usr/bin/../lib/gcc/:/home/liiing/localgcc/usr/x86_64-linux-gnu/../lib/:/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/:/home/liiing/localgcc/usr/lib/../lib/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/:/home/liiing/localgcc/usr/lib/../lib/:/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/:/home/liiing/localgcc/usr/x86_64-linux-gnu/:/home/liiing/localgcc/usr/lib/:./:/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../:/home/liiing/localgcc/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/liiing/localgcc' '-B' '/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15' '-B' '/home/liiing/localgcc/usr/x86_64-linux-gnu/bin' '-v' '-o' 'cmTC_88d70' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_88d70.']
+        link line: [ /home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/home/liiing/tmp/ccrfK64z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/liiing/localgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_88d70 /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/Scrt1.o /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crti.o /home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu -L/home/liiing/localgcc/usr/bin/../lib/gcc -L/home/liiing/localgcc/usr/x86_64-linux-gnu/../lib -L/home/liiing/localgcc/usr/lib/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib/../lib -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/home/liiing/localgcc/usr/lib/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib/../lib -L/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib -L. -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../.. -L/home/liiing/localgcc/usr/lib -v CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtendS.o /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crtn.o]
+          arg [/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/home/liiing/tmp/ccrfK64z.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/liiing/localgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_88d70] ==> ignore
+          arg [/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/Scrt1.o]
+          arg [/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crti.o] ==> obj [/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crti.o]
+          arg [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
+          arg [-L/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15] ==> dir [/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15]
+          arg [-L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15] ==> dir [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15]
+          arg [-L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu] ==> dir [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu]
+          arg [-L/home/liiing/localgcc/usr/bin/../lib/gcc] ==> dir [/home/liiing/localgcc/usr/bin/../lib/gcc]
+          arg [-L/home/liiing/localgcc/usr/x86_64-linux-gnu/../lib] ==> dir [/home/liiing/localgcc/usr/x86_64-linux-gnu/../lib]
+          arg [-L/home/liiing/localgcc/usr/lib/x86_64-linux-gnu] ==> dir [/home/liiing/localgcc/usr/lib/x86_64-linux-gnu]
+          arg [-L/home/liiing/localgcc/usr/lib/../lib] ==> dir [/home/liiing/localgcc/usr/lib/../lib]
+          arg [-L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu] ==> dir [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu]
+          arg [-L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../lib] ==> dir [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../lib]
+          arg [-L/home/liiing/localgcc/usr/lib/x86_64-linux-gnu] ==> dir [/home/liiing/localgcc/usr/lib/x86_64-linux-gnu]
+          arg [-L/home/liiing/localgcc/usr/lib/../lib] ==> dir [/home/liiing/localgcc/usr/lib/../lib]
+          arg [-L/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15] ==> dir [/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15]
+          arg [-L/home/liiing/localgcc/usr/x86_64-linux-gnu] ==> dir [/home/liiing/localgcc/usr/x86_64-linux-gnu]
+          arg [-L/home/liiing/localgcc/usr/lib] ==> dir [/home/liiing/localgcc/usr/lib]
+          arg [-L.] ==> ignore
+          arg [-L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../..] ==> dir [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../..]
+          arg [-L/home/liiing/localgcc/usr/lib] ==> dir [/home/liiing/localgcc/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtendS.o]
+          arg [/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crtn.o] ==> obj [/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 15.2.0]
+        link line: [/usr/bin/ld -plugin /home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/home/liiing/tmp/ccrfK64z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/liiing/localgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_88d70 /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/Scrt1.o /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crti.o /home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu -L/home/liiing/localgcc/usr/bin/../lib/gcc -L/home/liiing/localgcc/usr/x86_64-linux-gnu/../lib -L/home/liiing/localgcc/usr/lib/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib/../lib -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/home/liiing/localgcc/usr/lib/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib/../lib -L/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib -L. -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../.. -L/home/liiing/localgcc/usr/lib -v CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtendS.o /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/home/liiing/tmp/ccrfK64z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/liiing/localgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_88d70 /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/Scrt1.o /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crti.o /home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu -L/home/liiing/localgcc/usr/bin/../lib/gcc -L/home/liiing/localgcc/usr/x86_64-linux-gnu/../lib -L/home/liiing/localgcc/usr/lib/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib/../lib -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/home/liiing/localgcc/usr/lib/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib/../lib -L/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib -L. -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../.. -L/home/liiing/localgcc/usr/lib -v CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtendS.o /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/bin/ld -plugin /home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/home/liiing/tmp/ccrfK64z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/liiing/localgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_88d70 /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/Scrt1.o /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crti.o /home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu -L/home/liiing/localgcc/usr/bin/../lib/gcc -L/home/liiing/localgcc/usr/x86_64-linux-gnu/../lib -L/home/liiing/localgcc/usr/lib/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib/../lib -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/home/liiing/localgcc/usr/lib/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib/../lib -L/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15 -L/home/liiing/localgcc/usr/x86_64-linux-gnu -L/home/liiing/localgcc/usr/lib -L. -L/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../.. -L/home/liiing/localgcc/usr/lib -v CMakeFiles/cmTC_88d70.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtendS.o /home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld -m;elf
+        collapse obj [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> [/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
+        collapse obj [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> [/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
+        collapse library dir [/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15] ==> [/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15]
+        collapse library dir [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15] ==> [/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15]
+        collapse library dir [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu] ==> [/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu]
+        collapse library dir [/home/liiing/localgcc/usr/bin/../lib/gcc] ==> [/home/liiing/localgcc/usr/lib/gcc]
+        collapse library dir [/home/liiing/localgcc/usr/x86_64-linux-gnu/../lib] ==> [/home/liiing/localgcc/usr/lib]
+        collapse library dir [/home/liiing/localgcc/usr/lib/x86_64-linux-gnu] ==> [/home/liiing/localgcc/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/home/liiing/localgcc/usr/lib/../lib] ==> [/home/liiing/localgcc/usr/lib]
+        collapse library dir [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu] ==> [/home/liiing/localgcc/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../../../lib] ==> [/home/liiing/localgcc/usr/lib]
+        collapse library dir [/home/liiing/localgcc/usr/lib/x86_64-linux-gnu] ==> [/home/liiing/localgcc/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/home/liiing/localgcc/usr/lib/../lib] ==> [/home/liiing/localgcc/usr/lib]
+        collapse library dir [/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15] ==> [/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15]
+        collapse library dir [/home/liiing/localgcc/usr/x86_64-linux-gnu] ==> [/home/liiing/localgcc/usr/x86_64-linux-gnu]
+        collapse library dir [/home/liiing/localgcc/usr/lib] ==> [/home/liiing/localgcc/usr/lib]
+        collapse library dir [/home/liiing/localgcc/usr/bin/../lib/gcc/x86_64-linux-gnu/15/../../..] ==> [/home/liiing/localgcc/usr/lib]
+        collapse library dir [/home/liiing/localgcc/usr/lib] ==> [/home/liiing/localgcc/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/Scrt1.o;/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crti.o;/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o;/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o;/home/liiing/localgcc/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/home/liiing/localgcc/usr/libexec/gcc/x86_64-linux-gnu/15;/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu/15;/home/liiing/localgcc/usr/lib/gcc/x86_64-linux-gnu;/home/liiing/localgcc/usr/lib/gcc;/home/liiing/localgcc/usr/lib;/home/liiing/localgcc/usr/lib/x86_64-linux-gnu;/home/liiing/localgcc/usr/x86_64-linux-gnu]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.46
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckTypeSize.cmake:457 (check_include_file)"
+      - "CMakeLists.txt:503 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-JDQOL3"
+      binary: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-JDQOL3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-JDQOL3'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_00be2
+        [1/2] /home/liiing/toolchain/gcc.sh    -o CMakeFiles/cmTC_00be2.dir/CheckIncludeFile.c.o -c /home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-JDQOL3/CheckIncludeFile.c
+        [2/2] : && /home/liiing/toolchain/gcc.sh   CMakeFiles/cmTC_00be2.dir/CheckIncludeFile.c.o -o cmTC_00be2   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckTypeSize.cmake:458 (check_include_file)"
+      - "CMakeLists.txt:503 (check_type_size)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-AfJePW"
+      binary: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-AfJePW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-AfJePW'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_4e789
+        [1/2] /home/liiing/toolchain/gcc.sh    -o CMakeFiles/cmTC_4e789.dir/CheckIncludeFile.c.o -c /home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-AfJePW/CheckIncludeFile.c
+        [2/2] : && /home/liiing/toolchain/gcc.sh   CMakeFiles/cmTC_4e789.dir/CheckIncludeFile.c.o -o cmTC_4e789   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckTypeSize.cmake:459 (check_include_file)"
+      - "CMakeLists.txt:503 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-saftlC"
+      binary: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-saftlC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-saftlC'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_054b5
+        [1/2] /home/liiing/toolchain/gcc.sh    -o CMakeFiles/cmTC_054b5.dir/CheckIncludeFile.c.o -c /home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-saftlC/CheckIncludeFile.c
+        [2/2] : && /home/liiing/toolchain/gcc.sh   CMakeFiles/cmTC_054b5.dir/CheckIncludeFile.c.o -o cmTC_054b5   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckTypeSize.cmake:344 (try_compile)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckTypeSize.cmake:476 (__check_type_size_impl)"
+      - "CMakeLists.txt:503 (check_type_size)"
+    checks:
+      - "Check size of size_t"
+    directories:
+      source: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-JQDx66"
+      binary: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-JQDx66"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SIZE_T"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-JQDx66'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_00993
+        [1/2] /home/liiing/toolchain/gcc.sh    -o CMakeFiles/cmTC_00993.dir/SIZE_T.c.o -c /home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-JQDx66/SIZE_T.c
+        [2/2] : && /home/liiing/toolchain/gcc.sh   CMakeFiles/cmTC_00993.dir/SIZE_T.c.o -o cmTC_00993   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckTypeSize.cmake:344 (try_compile)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckTypeSize.cmake:476 (__check_type_size_impl)"
+      - "CMakeLists.txt:504 (check_type_size)"
+    checks:
+      - "Check size of unsigned long"
+    directories:
+      source: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-JwU0lC"
+      binary: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-JwU0lC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_UNSIGNED_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-JwU0lC'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_934f0
+        [1/2] /home/liiing/toolchain/gcc.sh    -o CMakeFiles/cmTC_934f0.dir/UNSIGNED_LONG.c.o -c /home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-JwU0lC/UNSIGNED_LONG.c
+        [2/2] : && /home/liiing/toolchain/gcc.sh   CMakeFiles/cmTC_934f0.dir/UNSIGNED_LONG.c.o -o cmTC_934f0   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:507 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_CTZL"
+    directories:
+      source: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-YMVWQk"
+      binary: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-YMVWQk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_BUILTIN_CTZL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-YMVWQk'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_55990
+        [1/2] /home/liiing/toolchain/gcc.sh -DHAVE_BUILTIN_CTZL   -o CMakeFiles/cmTC_55990.dir/src.c.o -c /home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-YMVWQk/src.c
+        [2/2] : && /home/liiing/toolchain/gcc.sh   CMakeFiles/cmTC_55990.dir/src.c.o -o cmTC_55990   && :
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "CMakeLists.txt:518 (try_run)"
+    directories:
+      source: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeTmp"
+      binary: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "RIGHT_SHIFT_IS_UNSIGNED_COMPILES"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_a2ac1
+        [1/2] /home/liiing/toolchain/gcc.sh    -o CMakeFiles/cmTC_a2ac1.dir/right_shift_is_unsigned.c.o -c /home/liiing/feedback/uid37606/cmakescripts/right_shift_is_unsigned.c
+        [2/2] : && /home/liiing/toolchain/gcc.sh   CMakeFiles/cmTC_a2ac1.dir/right_shift_is_unsigned.c.o -o cmTC_a2ac1   && :
+        
+      exitCode: 0
+    runResult:
+      variable: "RIGHT_SHIFT_IS_UNSIGNED"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:537 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HIDDEN_WORKS"
+    directories:
+      source: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-mmGWTg"
+      binary: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-mmGWTg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HIDDEN_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-mmGWTg'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_8383c
+        [1/2] /home/liiing/toolchain/gcc.sh -DHIDDEN_WORKS   -o CMakeFiles/cmTC_8383c.dir/src.c.o -c /home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-mmGWTg/src.c
+        [2/2] : && /home/liiing/toolchain/gcc.sh   CMakeFiles/cmTC_8383c.dir/src.c.o -o cmTC_8383c   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:561 (check_c_source_compiles)"
+    checks:
+      - "Performing Test INLINE_WORKS"
+    directories:
+      source: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-cwatmP"
+      binary: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-cwatmP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "INLINE_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-cwatmP'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_8eadd
+        [1/2] /home/liiing/toolchain/gcc.sh -DINLINE_WORKS   -o CMakeFiles/cmTC_8eadd.dir/src.c.o -c /home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-cwatmP/src.c
+        [2/2] : && /home/liiing/toolchain/gcc.sh   CMakeFiles/cmTC_8eadd.dir/src.c.o -o cmTC_8eadd   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:578 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_THREAD_LOCAL"
+    directories:
+      source: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-uqgFAS"
+      binary: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-uqgFAS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_THREAD_LOCAL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-uqgFAS'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_66f72
+        [1/2] /home/liiing/toolchain/gcc.sh -DHAVE_THREAD_LOCAL   -o CMakeFiles/cmTC_66f72.dir/src.c.o -c /home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-uqgFAS/src.c
+        [2/2] : && /home/liiing/toolchain/gcc.sh   CMakeFiles/cmTC_66f72.dir/src.c.o -o cmTC_66f72   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:591 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_VERSION_SCRIPT"
+    directories:
+      source: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-Nn4TcH"
+      binary: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-Nn4TcH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_VERSION_SCRIPT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-Nn4TcH'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_5dd0f
+        [1/2] /home/liiing/toolchain/gcc.sh -DHAVE_VERSION_SCRIPT  -Wl,--version-script,/home/liiing/feedback/uid37606/build-local/conftest.map -o CMakeFiles/cmTC_5dd0f.dir/src.c.o -c /home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-Nn4TcH/src.c
+        [2/2] : && /home/liiing/toolchain/gcc.sh -Wl,--version-script,/home/liiing/feedback/uid37606/build-local/conftest.map  CMakeFiles/cmTC_5dd0f.dir/src.c.o -o cmTC_5dd0f   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/liiing/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckFunctionExists.cmake:144 (try_compile)"
+      - "CMakeLists.txt:945 (check_function_exists)"
+    checks:
+      - "Looking for fmemopen"
+    directories:
+      source: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-VoDjyY"
+      binary: "/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-VoDjyY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_FMEMOPEN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-VoDjyY'
+        
+        Run Build Command(s): /home/liiing/.local/bin/ninja -v cmTC_a064d
+        [1/2] /home/liiing/toolchain/gcc.sh -DCHECK_FUNCTION_EXISTS=fmemopen   -o CMakeFiles/cmTC_a064d.dir/CheckFunctionExists.c.o -c /home/liiing/feedback/uid37606/build-local/CMakeFiles/CMakeScratch/TryCompile-VoDjyY/CheckFunctionExists.c
+        [2/2] : && /home/liiing/toolchain/gcc.sh   CMakeFiles/cmTC_a064d.dir/CheckFunctionExists.c.o -o cmTC_a064d   && :
+        
+      exitCode: 0
+...
