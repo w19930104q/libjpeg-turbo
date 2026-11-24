@@ -1,0 +1,67 @@
+#!/bin/sh
+
+set -u
+set -e
+trap onexit INT
+trap onexit TERM
+trap onexit EXIT
+
+TMPDIR=
+
+onexit()
+{
+	if [ ! "$TMPDIR" = "" ]; then
+		rm -rf $TMPDIR
+	fi
+}
+
+usage()
+{
+	echo "$0 [-config <config>]"
+	exit 1
+}
+
+CONFIG=
+OUTDIR=.
+
+while [ $# -gt 0 ]; do
+	case $1 in
+	-h*)
+		usage 0
+		;;
+	-config)
+		if [ $# -gt 1 ]; then
+			if [[ ! "$2" =~ -.* ]]; then
+				CONFIG=$2;  OUTDIR=./$CONFIG;  shift
+			fi
+		fi
+		;;
+	esac
+	shift
+done
+
+if [ -f $OUTDIR/libjpeg-turbo-3.2.2.x86_64.rpm ]; then
+	rm -f $OUTDIR/libjpeg-turbo-3.2.2.x86_64.rpm
+fi
+
+umask 022
+TMPDIR=`mktemp -d /tmp/libjpeg-turbo-build.XXXXXX`
+
+mkdir -p $TMPDIR/RPMS
+ln -fs `pwd` $TMPDIR/BUILD
+
+STRIP=/usr/bin/strip
+if [ "$CONFIG" = "Debug" ]; then
+	STRIP=/bin/true
+fi
+if [ "$CONFIG" = "" ]; then
+	rpmbuild -bb --define "_blddir $TMPDIR/buildroot" \
+		--define "_topdir $TMPDIR" --define "__strip $STRIP" \
+		--target x86_64 pkgscripts/rpm.spec
+else
+	rpmbuild -bb --define "_blddir $TMPDIR/buildroot" \
+		--define "_topdir $TMPDIR" --define "__strip $STRIP" \
+		--define "_config $CONFIG" --target x86_64 pkgscripts/rpm.spec
+fi
+cp $TMPDIR/RPMS/x86_64/libjpeg-turbo-3.2.2-20261124.x86_64.rpm \
+	$OUTDIR/libjpeg-turbo-3.2.2.x86_64.rpm
